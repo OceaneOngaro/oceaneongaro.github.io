@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/page/</link>
+        <description>Recent content in Pages on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>A propos</title>
+        <link>https://example.org/page/about/</link>
+        <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/page/about/</guid>
+        <description>&lt;h3 id=&#34;a-propos-de-moi&#34;&gt;A propos de moi&lt;/h3&gt;
+&lt;p&gt;Je m&amp;rsquo;appelle Océane Ongaro, et je suis actuellement étudiante en Master 2 Génie Logiciel à la Faculté des sciences de Montpellier (France). Je suis titulaire d&amp;rsquo;une licence informatique.&lt;/p&gt;
+&lt;p&gt;Mon parcours académique et mes projets sont le fruit de ma passion pour le domaine de l&amp;rsquo;informatique et des nombreuses technologies. Ce portefolio est un reflet de mon voyage académique et mes réalisations jusqu&amp;rsquo;à présent.&lt;/p&gt;
+&lt;h3 id=&#34;compétences&#34;&gt;Compétences&lt;/h3&gt;
+&lt;p&gt;Je maîtrise plusieurs technologies entre autres :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust
+&lt;ul&gt;
+&lt;li&gt;crossterm&lt;/li&gt;
+&lt;li&gt;tui-rs&lt;/li&gt;
+&lt;li&gt;std::thread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;C/C++
+&lt;ul&gt;
+&lt;li&gt;CMake/Makefile&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;pthread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;JS&lt;/li&gt;
+&lt;li&gt;HTML, CSS, PHP, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;Si vous êtes intéressé par mon travail, souhaitez en savoir plus sur mes projets ou envisagez une collaboration dans le domaine de l&amp;rsquo;informatique, je serais ravie de discuter avec vous. N&amp;rsquo;hésitez pas à me contacter pour partager des idées, des opporunités ou simplement pour engager la conversation.&lt;/p&gt;
+&lt;p&gt;Pour me contacter, vous pouvez m&amp;rsquo;envoyer un email à &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;mailto:oceane.ongaro@proton.me&#34; &gt;oceane.ongaro@proton.me&lt;/a&gt;&amp;rdquo;. Vous pouvez aussi allez voir mon &lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitLab&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Projets</title>
+        <link>https://example.org/page/projets/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/page/projets/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Liens</title>
+        <link>https://example.org/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/page/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Recherche</title>
+        <link>https://example.org/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

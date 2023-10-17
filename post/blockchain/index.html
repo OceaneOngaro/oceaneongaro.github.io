@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Utilsation de Rust pour parcourir les registres de la blockchain Bitcoin'>
+<title>Exploration de la blockchain Bitcoin avec Rust - L3</title>
+
+<link rel='canonical' href='https://example.org/post/blockchain/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Exploration de la blockchain Bitcoin avec Rust - L3'>
+<meta property='og:description' content='Utilsation de Rust pour parcourir les registres de la blockchain Bitcoin'>
+<meta property='og:url' content='https://example.org/post/blockchain/'>
+<meta property='og:site_name' content='PorteFolio Océane Ongaro'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Rust' /><meta property='article:tag' content='Blockchain' /><meta property='article:tag' content='Bitcoin' /><meta property='article:tag' content='Multithreading' /><meta property='article:published_time' content='2022-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-01-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.org/post/blockchain/intro.png' />
+<meta name="twitter:title" content="Exploration de la blockchain Bitcoin avec Rust - L3">
+<meta name="twitter:description" content="Utilsation de Rust pour parcourir les registres de la blockchain Bitcoin"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.org/post/blockchain/intro.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Afficher le menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/photo2_huc20fadf20c0107975c4d767560791f2e_14941_300x0_resize_q75_box.jpg" width="300"
+                            height="343" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">PorteFolio Océane Ongaro</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>A propos</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/projets/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Projets</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Recherche</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Liens</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Mode sombre</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table des matières</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#fonctionnalités">Fonctionnalités</a></li>
+    <li><a href="#démo">Démo</a></li>
+    <li><a href="#utilisation-du-projet">Utilisation du projet</a>
+      <ul>
+        <li><a href="#crates">Crates</a></li>
+        <li><a href="#installations">Installations</a></li>
+        <li><a href="#lancements">Lancements</a></li>
+      </ul>
+    </li>
+    <li><a href="#implémentation">Implémentation</a>
+      <ul>
+        <li><a href="#cahier-des-charges">Cahier des charges</a></li>
+        <li><a href="#approche">Approche</a></li>
+        <li><a href="#parseur">Parseur</a></li>
+        <li><a href="#autres-modules">Autres modules</a></li>
+      </ul>
+    </li>
+    <li><a href="#multithreading">Multithreading</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/blockchain/">
+                <img src="/post/blockchain/intro_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_800x0_resize_box_3.png"
+                        srcset="/post/blockchain/intro_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_800x0_resize_box_3.png 800w, /post/blockchain/intro_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="488" 
+                        loading="lazy"
+                        alt="Featured image of post Exploration de la blockchain Bitcoin avec Rust - L3" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/rust/" style="background-color: #2a9d8f; color: #fff;">
+                Rust
+            </a>
+        
+            <a href="/categories/bitcoin/" style="background-color: #2a9d8f; color: #fff;">
+                Bitcoin
+            </a>
+        
+            <a href="/categories/licence/" style="background-color: #2a9d8f; color: #fff;">
+                Licence
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/blockchain/">Exploration de la blockchain Bitcoin avec Rust - L3</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Utilsation de Rust pour parcourir les registres de la blockchain Bitcoin
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    7 minutes de lecture
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="https://gitlab.com/AlyssaShep/blockchain-rust.git"  target="_blank" rel="noopener"
+    >Lien GitLab</a></p>
+<!-- raw HTML omitted -->
+<h2 id="description">Description</h2>
+<p>Ce projet est une interface textuelle qui calcule et affiche des statistiques (nombres de transactions, etc) extraites de la blockchain Bitcoin avec Rust.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Ce projet offre la découverte de deux univers ayant récemment émergés : la blockchain Bitcoin, et Rust. La thématique était de manipuler les registres de cette cryptomonnaies en utilisant un langage que nous ne connaissions pas. Ce projet a été fait en collaboration avec des enseignants de Polytech Montpellier.</p>
+<h2 id="fonctionnalités">Fonctionnalités</h2>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		<script src="/shortcode-gallery/jquery-3.7.0.min.js"></script>
+	
+	
+	
+		<script src="/shortcode-gallery/lazy/jquery.lazy.min.js"></script>
+	
+
+	<script src="/shortcode-gallery/swipebox/js/jquery.swipebox.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/swipebox/css/swipebox.min.css">
+
+	<script src="/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/justified_gallery/justifiedGallery.min.css"/>
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-5672bf8d53895dd4345d19f999b70e64-0-wrapper" class="gallery-wrapper">
+<div id="gallery-5672bf8d53895dd4345d19f999b70e64-0" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/1.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="373"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APN2gQHlR/3wKaURDkZGfQAVfOmaq6j/AECYjt&#43;7JqP&#43;xtTzn&#43;z5/wDv21K5n7Wn/MvvKcqLn5ssfcU1dqn5Rj6VffR9UY/8eE4/7ZmmHRtSUbmsZwByT5ZouHtaf8y&#43;8iGo3wGBeXH/AH9b/Gj&#43;0b7/AJ/bj/v63&#43;NV6KZXJHsWP7Rvv&#43;f24/7&#43;t/jQdRviCDeTkHt5p/xqvRQHJHsf/9k="
+							
+							class="lazy"
+							data-src="/post/blockchain/images/1_hu12b39e93e8dc3f4f47ee37985a6ef958_60016_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/2.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="373"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APNVjSRyAoz/ALgoKBH2j5SfQAUsS75OEBx74pZF2yj5AMnI5zQAyRVz8x3H3FNXaD8ox9BTpeo5/WmDqKAJNuCSCR9KAMsMknHrSnrQPvD60AI3z4J/nSBBkdaWlHWgD//Z"
+							
+							class="lazy"
+							data-src="/post/blockchain/images/2_hu35becbd037b44ed1a76d3510a21511ba_88212_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/3.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="366"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APOJHjDkeX0&#43;g/pTPNXOQhBHcEf4U2X/AFhptADzIpOSrE/Uf4U&#43;No89WU9O3&#43;FQ05R84&#43;tACmQk5Kr&#43;VJ5n&#43;yv5U0UHrQA8yc/dUfhQJSDnap/CmUlAH//Z"
+							
+							class="lazy"
+							data-src="/post/blockchain/images/3_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/4.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="376"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APM2Ee4/KP8AvgUg2qcqMfQAUP8AfNJQArbXOWyT70qBAePl/Cm0DqKAJSBmkwPSlPWkoAVgAxHoaFALClb75&#43;tC/eFAH//Z"
+							
+							class="lazy"
+							data-src="/post/blockchain/images/4_hu9f591a198f136911ff3e83b657c55e12_30862_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/5.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="377"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APOTar12r0z90VFtRCdpwfYYo8x/&#43;ehx9TTSS3Vs/WgAbaxy2T9aF2qflBH0pMe4pRgHrQAlFFFABRRRQB//2Q=="
+							
+							class="lazy"
+							data-src="/post/blockchain/images/5_hu74b190068d98cfe6e3fa1b7609d4c7c7_44240_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-5672bf8d53895dd4345d19f999b70e64-0");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>L’interface graphique est accessible depuis un terminal UNIX, Windows, ou même depuis un terminal
+lancé dans un environnement de développement intégré. L’interface graphique est responsive : elle s’adapte
+quand l’utilisateur redimensionne la fenêtre. Celle ci est divisée en cinq onglets.</p>
+<ul>
+<li>l’onglet Présentation :
+<ul>
+<li>présente brièvement le programme,</li>
+<li>rappelle les commandes que l’on peut faire pour lancer le programme autrement,</li>
+<li>aﬀiche les touches pour aﬀicher immédiatement l’aide ;</li>
+</ul>
+</li>
+<li>l’onglet Blocs aﬀiche les informations générales d’un bloc :
+<ul>
+<li>la taille du bloc, le nombre de transactions,</li>
+<li>la version, la racine de Merkle, l’horaire, les bits, le nonce,</li>
+<li>diverses statistiques (le volume d’échanges, la valeur moyenne et médiane, le premier et troisième
+quartile) ;</li>
+</ul>
+</li>
+<li>l’onglet Transactions aﬀiche un graphique du nombre de transactions par bloc,</li>
+<li>l’onglet BTC aﬀiche un graphique de la plus grosse valeur par bloc,</li>
+<li>l’onglet Aide explique comment naviguer entre les onglets, et comment accéder aux différentes
+fonctionnalités.</li>
+</ul>
+<p>Nous avons aussi mis en place des barres de progressions sur l’exportation des données, la mise en place
+des données pour le terminal ainsi que pour le parseur avec le nom spécifique du lieu d’écriture ou de lecture. Au moment de l’écriture nous proposons plusieurs choix à l’utilisateur : json ou txt ou le choix de quitter l’écriture.</p>
+<p>Nous avons donc opté pour un nuage de points. Celui-ci permet de voir les résultats sur tous les blocs en même
+temps. Il y a aussi la présence du repère avec les blocs (abscisses) et le nombre de blocs (ordonnées) ce qui
+permet d’avoir plus de recul et d’impact sur la totalité des blocs.</p>
+<h2 id="démo">Démo</h2>
+<div class="video-wrapper">
+    <video
+    controls
+    src="demo.mp4"
+    
+    
+    >
+        <p>
+            Your browser doesn't support HTML5 video. Here is a
+            <a href="demo.mp4">link to the video</a> instead.
+        </p>
+    </video>
+</div>
+
+<h2 id="utilisation-du-projet">Utilisation du projet</h2>
+<h3 id="crates">Crates</h3>
+<p>Nous avons utilisé les crates suivantes :</p>
+<ul>
+<li>chrono : une bibliothèque pour la gestion du temps qui permet d’interpréter l’heure Unix contenue dans l’en-tête
+des blocs</li>
+<li>crossterm : une bibliothèque pour manipuler un terminal</li>
+<li>hex-string : une structure qui facilite la convertion de vecteurs d’entiers vers des chaînes hexadécimales,
+et qui est particulièrement utile du fait que la base 16 est largement utilisée dans Bitcoin pour les repré-
+sentations de clés privées, clés publiques, signatures ou hashs,</li>
+<li>sha2 : une implémentation des fonctions de hachage de la famille SHA-2, qui permet d’utiliser la fonction
+SHA-256, nécessaire pour obtenir, entre autres, des identifiants de blocs ou de transactions,</li>
+<li>tui-rs : une bibliothèque qui permet de construire des interfaces utilisateur et des tableaux de bord dans
+un terminal, en les divisant en widgets aﬀichables, et qui permet également de définir et contrôler.</li>
+</ul>
+<h3 id="installations">Installations</h3>
+<ul>
+<li>cmake</li>
+<li>pkg-config</li>
+<li>libssl</li>
+<li>libfreetype6-dev (Debian)</li>
+<li>libexpat1-dev (Debian) / libexpat</li>
+<li>libxcb-composite0-dev (Debian) / libxcb (Arch Linux)</li>
+</ul>
+<h4 id="debian">Debian</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>sudo apt install cmake
+</span></span><span style="display:flex;"><span>sudo apt install pkg<span style="color:#f92672">-</span>config libasound2<span style="color:#f92672">-</span>dev libssl<span style="color:#f92672">-</span>dev cmake libfreetype6<span style="color:#f92672">-</span>dev libexpat1<span style="color:#f92672">-</span>dev libxcb<span style="color:#f92672">-</span>composite0<span style="color:#f92672">-</span>dev
+</span></span></code></pre></div><h4 id="arch-linux">Arch Linux</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>sudo pacman <span style="color:#f92672">-</span>S cmake pkg<span style="color:#f92672">-</span>config libexpat libxcb
+</span></span></code></pre></div><h3 id="lancements">Lancements</h3>
+<p>Les fichiers blk.dat doivent être placés dans un dossier ./ins, et les fichiers d’exportation sont placés dans
+un dossier ./outs dans le projet. Il est possible de choisir le dossier contenant les fichiers à lire, le dossier contenant les fichiers à exporter, ou les deux à la fois, en lançant le programme ainsi :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>cargo run <span style="color:#f92672">--</span>release i .<span style="color:#f92672">/</span>dossier_à_lire<span style="color:#f92672">/</span>
+</span></span><span style="display:flex;"><span>cargo run <span style="color:#f92672">--</span>release o .<span style="color:#f92672">/</span>dossier_où_exporter<span style="color:#f92672">/</span>
+</span></span><span style="display:flex;"><span>cargo run <span style="color:#f92672">--</span>release io .<span style="color:#f92672">/</span>dossier_à_lire<span style="color:#f92672">/</span> .<span style="color:#f92672">/</span>dossier_où_exporter<span style="color:#f92672">/</span>
+</span></span></code></pre></div><h2 id="implémentation">Implémentation</h2>
+<h3 id="cahier-des-charges">Cahier des charges</h3>
+<p>Les fonctionnalités qui étaient à implémenter rentrent dans trois catégories</p>
+<ol>
+<li>
+<p>Désérialiser les données contenues dans les fichiers blk.dat :</p>
+<ul>
+<li>Lire les métadonnées de l’en-tête (version, hash du bloc précédent, etc.),</li>
+<li>Lire les transactions,</li>
+<li>Reconstruire l’arbre de Merkle ;</li>
+</ul>
+</li>
+<li>
+<p>Analyser les données :</p>
+<ul>
+<li>Compter le nombre de transactions contenues dans un bloc,</li>
+<li>Extraire les adresses,</li>
+<li>Rechercher la plus grande somme transférée, calculer la somme moyenne transférée en fonction d’une période, etc. ;</li>
+</ul>
+</li>
+<li>
+<p>Exporter les données via un affichage ou dans un fichier</p>
+</li>
+</ol>
+<h3 id="approche">Approche</h3>
+<p>Pour réaliser ce projet, nous avons tout d’abord mis en place un parseur capable de lire des fichiers blk.dat,
+les uns après les autres, de délimiter les différents champs contenus dans ce fichier, puis de stocker les données
+en mémoire, dans des structures au format approprié. Nous vérifions ensuite l’intégrité des données par le calcul
+de la racine de Merkle. Par la suite, l’analyse des données est faite depuis ces structures stockées en mémoire.
+Finalement, l’utilisateur peut visionner les données depuis une interface graphique intégrée au terminal.</p>
+<h3 id="parseur">Parseur</h3>
+<p>Le parseur, notre module le plus important. Dans un premier temps, l’entièreté du fichier blk.dat
+est placée telle quelle dans un tampon en mémoire, ce qui offre plus de liberté pour déplacer un curseur en
+fonction d’un nombre variable d’octets. Puis, le module analyse octet par octet le tampon détermine sa taille,
+ses transactions, et enfin le stocke en mémoire dans une structure adaptée.</p>
+<p>Un fichier blk.dat est constitué de blocs mis les uns à la suite des autres. Chaque bloc est constitué de
+plusieurs champs de tailles et de types différents. Certains champs ont une taille fixe, comme les bits magiques
+qui annoncent le début d’un bloc et le type du réseau qui a été employé. Ses quatre octets sont toujours les mêmes parmi « f9beb4d9 », « 0b110907 » et « fabfb5da ». Pour obtenir les bits magiques, le parseur lit
+simplement les quatre premiers octets.
+En revanche, certains champs n’ont pas de taille fixe. C’est le cas du champs « Input Count » qui indique le
+nombre de transactions à venir. Ce nombre peut être un, comme mille. La taille du nombre de transactions étant
+variable, le parseur ne devra donc pas lire systématiquement le même nombre d’octets afin de le déterminer.
+Pour qu’il soit possible de deviner sa taille, l’« Input Count » utilise un système de préfixe. Si la valeur du
+premier octet (le préfixe) est supérieure à 0xfc, il faut se reporter à ce tableau :</p>
+<p>Préfixe Exemple Description</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Préfixe</th>
+<th>Exemple</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>≤ 0xfc</td>
+<td>12</td>
+<td>Lire zéro octet de plus</td>
+</tr>
+<tr>
+<td>≤ 0xfd</td>
+<td>fd1234</td>
+<td>Lire deux octets de plus</td>
+</tr>
+<tr>
+<td>≤ 0xfe</td>
+<td>fe12345678</td>
+<td>Lire quatre octets de plus</td>
+</tr>
+<tr>
+<td>≤ 0xff</td>
+<td>ff 1234567890abcdef</td>
+<td>Lire huit octets de plus</td>
+</tr>
+</tbody>
+</table></div>
+<p>Le module lecture_frac gère également l’exportation des données vers des fichiers. Il permet d’exporter
+l’entièreté d’un fichier blk.dat vers un fichier json, en rendant ses données facilement compréhensibles, ou encore
+d’exporter toutes les adresses présentes depuis un fichier blk.dat vers un fichier txt.</p>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-5672bf8d53895dd4345d19f999b70e64-2-wrapper" class="gallery-wrapper">
+<div id="gallery-5672bf8d53895dd4345d19f999b70e64-2" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/schema/parseur.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="434" height="600"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFwMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APXI5WW3kc8FWJ&#43;Y57/WnNOyrEeDvOOB/wDXqNfltJT93k9j/hQ/Kwcnt0JH9RWN3Y0tqACRXRSNEQKgxtAH4VLvf&#43;9TCQblsjnaOQRTq0j1JZEhxaSngY/u/wD1qVst5JAGARyTj&#43;lKMm1kGSDnuM/zNJJ92HJPBB4Ht9DWS2/ruUKQftJO3jYOcn/D&#43;tPpmF&#43;0Fto&#43;4Bu/yP607I9a0j1JZ//Z"
+							
+							class="lazy"
+							data-src="/post/blockchain/images/schema/parseur_hu6cf18c23f2973ef7a4fed61932fce2ac_167096_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/post/blockchain/images/schema/utilisation.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="434"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABcAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APYpCNwGMnBqCEIocmOTHU7x/jT9hSUEnduB9qIo9u4BXXPdmzQBKsUS8rGg&#43;iimOflOyMMMdRSm3Q55fn/aNDybF2spJPdRxQAsmMjPoajhZAT1H1OafL1X8ahj/i&#43;tAFnzF9aRpF2nntUVI33T9KAP/9k="
+							
+							class="lazy"
+							data-src="/post/blockchain/images/schema/utilisation_huabf405148d6bf167609077e26832b677_70335_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-5672bf8d53895dd4345d19f999b70e64-2");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<h3 id="autres-modules">Autres modules</h3>
+<ul>
+<li>Le module conversions contient une fonction de conversion entre satoshis et bitcoins, ainsi qu’une
+fonction qui permet un aﬀichage agréable de l’horaire.</li>
+<li>Le module merkle_tree contient les fonctions nécessaires au calcul de la racine de Merkle, et à
+l’aﬀichage de l’arbre reconstitué.</li>
+<li>Le module recherches offre plusieurs fonctions de recherche : une fonction qui recherche la plus
+grande somme transférée dans tout le fichier, une qui fait la même recherche mais pour chaque bloc,
+ainsi qu’une fonction qui calcule la somme des bitcoins échangés au cours d’un même journée passée
+en paramètre.</li>
+<li>Le module tris permet de trier en O(n log n) l’ensemble des blocs selon l’horaire qu’ils contiennent.
+Rappelons que lorsqu’on télécharge les blocs depuis un réseau Bitcoin, il arrive que certains blocs
+soient téléchargés dans le désordre.</li>
+<li>Enfin, le module Calculs contient les fonctions qui permettent l’extraction des clefs publiques, de
+leurs hashs, et des adresses.</li>
+</ul>
+<h2 id="multithreading">Multithreading</h2>
+<p>Après la première mise en place du parseur, ce dernier était très lent. L’outil était également ralenti par le
+calcul de la racine de Merkle. Nous avons pu apporter des optimisations grâce à la mise en place de threads dans
+le module lecture_frac et dans le module merkle_tree.</p>
+<p>L’idée ici est qu’un thread travaille sur un certain nombre de blocs. Il faut donc compter le nombre de blocs du
+fichier, ainsi que leur longueur. Comme un bloc commence par les bits magiques, suivis de sa taille, il suﬀit de
+lire les huit premiers octets, et de déplacer le curseur en l’incrémentant avec la taille extraite. Cette dernière est
+également stockée dans un tableau dynamique d’entier. Ensuite, il faut vérifier que le nombre de threads est bien
+supérieur au nombre de blocs, afin de voir s’il y a une utilité de threader la lecture du fichier. Pour cela, on fait
+la division entre le nombre de blocs dans un fichier, et le nombre de threads qu’on veut donner. Finalement, il
+devient possible de répartir le nombre de blocs par threads.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/rust/">Rust</a>
+        
+            <a href="/tags/blockchain/">Blockchain</a>
+        
+            <a href="/tags/bitcoin/">Bitcoin</a>
+        
+            <a href="/tags/multithreading/">Multithreading</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 PorteFolio Océane Ongaro
+    </section>
+    
+    <section class="powerby">
+        Généré avec <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Thème <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.20.0">Stack</a></b> conçu par <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
