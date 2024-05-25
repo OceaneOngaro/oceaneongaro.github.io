@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/en/categories/</link>
+        <description>Recent content in Categories on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Arduino</title>
+        <link>https://example.org/en/categories/arduino/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/arduino/</guid>
+        <description>&lt;img src="https://example.org/en/categories/arduino/ArduinoCommunityLogo.png" alt="Featured image of post Arduino" /&gt;</description>
+        </item>
+        <item>
+        <title>IoT</title>
+        <link>https://example.org/en/categories/iot/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/iot/</guid>
+        <description>&lt;img src="https://example.org/en/categories/iot/IoT.jpg" alt="Featured image of post IoT" /&gt;</description>
+        </item>
+        <item>
+        <title>Master</title>
+        <link>https://example.org/en/categories/master/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/master/</guid>
+        <description>&lt;img src="https://example.org/en/categories/master/master.jpg" alt="Featured image of post Master" /&gt;</description>
+        </item>
+        <item>
+        <title>Android</title>
+        <link>https://example.org/en/categories/android/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/android/</guid>
+        <description>&lt;img src="https://example.org/en/categories/android/android.jpg" alt="Featured image of post Android" /&gt;</description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://example.org/en/categories/java/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/java/</guid>
+        <description>&lt;img src="https://example.org/en/categories/java/java.jpg" alt="Featured image of post Java" /&gt;</description>
+        </item>
+        <item>
+        <title>Solid</title>
+        <link>https://example.org/en/categories/solid/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/solid/</guid>
+        <description>&lt;img src="https://example.org/en/categories/solid/solid.png" alt="Featured image of post Solid" /&gt;</description>
+        </item>
+        <item>
+        <title>Web</title>
+        <link>https://example.org/en/categories/web/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/web/</guid>
+        <description>&lt;img src="https://example.org/en/categories/web/web.jpg" alt="Featured image of post Web" /&gt;</description>
+        </item>
+        <item>
+        <title>Bachelor&#39;s Degree</title>
+        <link>https://example.org/en/categories/bachelors-degree/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/bachelors-degree/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Bitcoin</title>
+        <link>https://example.org/en/categories/bitcoin/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/bitcoin/</guid>
+        <description>&lt;img src="https://example.org/en/categories/bitcoin/bitcoin.jpg" alt="Featured image of post Bitcoin" /&gt;</description>
+        </item>
+        <item>
+        <title>Rust</title>
+        <link>https://example.org/en/categories/rust/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/rust/</guid>
+        <description>&lt;img src="https://example.org/en/categories/rust/cover.png" alt="Featured image of post Rust" /&gt;</description>
+        </item>
+        <item>
+        <title>Bachelor&#39;s degree</title>
+        <link>https://example.org/en/categories/licence/</link>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/categories/licence/</guid>
+        <description>&lt;img src="https://example.org/en/categories/licence/image.png" alt="Featured image of post Bachelor&#39;s degree" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

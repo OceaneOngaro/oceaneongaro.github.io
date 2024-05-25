@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/tags/</link>
+        <description>Recent content in Tags on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Arduino</title>
+        <link>https://example.org/tags/arduino/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/arduino/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Docker</title>
+        <link>https://example.org/tags/docker/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/docker/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Embarqué</title>
+        <link>https://example.org/tags/embarqu%C3%A9/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/embarqu%C3%A9/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>ESP32</title>
+        <link>https://example.org/tags/esp32/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/esp32/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Flutter</title>
+        <link>https://example.org/tags/flutter/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/flutter/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>IoT</title>
+        <link>https://example.org/tags/iot/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/iot/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Master</title>
+        <link>https://example.org/tags/master/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/master/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Raspberry Pi</title>
+        <link>https://example.org/tags/raspberry-pi/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/raspberry-pi/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Android Studio</title>
+        <link>https://example.org/tags/android-studio/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/android-studio/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>CSS</title>
+        <link>https://example.org/tags/css/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>HTML</title>
+        <link>https://example.org/tags/html/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Inrupt</title>
+        <link>https://example.org/tags/inrupt/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/inrupt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://example.org/tags/java/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JS</title>
+        <link>https://example.org/tags/js/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Node Js</title>
+        <link>https://example.org/tags/node-js/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/node-js/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Npm</title>
+        <link>https://example.org/tags/npm/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/npm/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SOLID</title>
+        <link>https://example.org/tags/solid/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/solid/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Bitcoin</title>
+        <link>https://example.org/tags/bitcoin/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/bitcoin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Blockchain</title>
+        <link>https://example.org/tags/blockchain/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/blockchain/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Multithreading</title>
+        <link>https://example.org/tags/multithreading/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/multithreading/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Rust</title>
+        <link>https://example.org/tags/rust/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/rust/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>PHP</title>
+        <link>https://example.org/tags/php/</link>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/php/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SQL</title>
+        <link>https://example.org/tags/sql/</link>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/tags/sql/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

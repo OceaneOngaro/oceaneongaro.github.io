@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Sample article showcasing basic Markdown syntax and formatting for HTML elements.'>
+<title>Projet SOLID - M1</title>
+
+<link rel='canonical' href='https://example.org/en/post/solid/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Projet SOLID - M1'>
+<meta property='og:description' content='Sample article showcasing basic Markdown syntax and formatting for HTML elements.'>
+<meta property='og:url' content='https://example.org/en/post/solid/'>
+<meta property='og:site_name' content='PorteFolio Océane Ongaro'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='JS' /><meta property='article:tag' content='Node Js' /><meta property='article:tag' content='npm' /><meta property='article:tag' content='CSS' /><meta property='article:tag' content='HTML' /><meta property='article:tag' content='SOLID' /><meta property='article:tag' content='Inrupt' /><meta property='article:published_time' content='2023-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-01-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.org/en/post/solid/solid.png' />
+<meta name="twitter:title" content="Projet SOLID - M1">
+<meta name="twitter:description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.org/en/post/solid/solid.png' />
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/en/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/photo2_huc20fadf20c0107975c4d767560791f2e_14941_300x0_resize_q75_box.jpg" width="300"
+                            height="343" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/en">PorteFolio Océane Ongaro</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/en/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/_index.zh-cn/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About me</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/projets/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Projects</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/en/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://example.org/" >Francais</option>
+                        
+                            <option value="https://example.org/en/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#solid">Solid</a></li>
+    <li><a href="#fonctionnalités">Fonctionnalités</a>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#interprétations-des-données">Interprétations des données</a>
+      <ul>
+        <li><a href="#calendrier">Calendrier</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#listes-des-activités">Listes des activités</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#messages">Messages</a></li>
+      </ul>
+    </li>
+    <li><a href="#démo">Démo</a></li>
+    <li><a href="#utilisation-du-projet">Utilisation du projet</a>
+      <ul>
+        <li><a href="#installations">Installations</a></li>
+        <li><a href="#lancement">Lancement</a></li>
+      </ul>
+    </li>
+    <li><a href="#implémentation">Implémentation</a>
+      <ul>
+        <li><a href="#interface-utilisateur">Interface utilisateur</a></li>
+        <li><a href="#accueil-1">Accueil</a></li>
+        <li><a href="#interprétations-des-données-1">Interprétations des données</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/en/post/solid/">
+                <img src="/en/post/solid/solid_hu694d995a98ce01a581c1622f8a363499_80051_800x0_resize_box_3.png"
+                        srcset="/en/post/solid/solid_hu694d995a98ce01a581c1622f8a363499_80051_800x0_resize_box_3.png 800w, /en/post/solid/solid_hu694d995a98ce01a581c1622f8a363499_80051_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="408" 
+                        loading="lazy"
+                        alt="Featured image of post Projet SOLID - M1" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/en/categories/web/" style="background-color: #2a9d8f; color: #fff;">
+                Web
+            </a>
+        
+            <a href="/en/categories/solid/" style="background-color: #2a9d8f; color: #fff;">
+                Solid
+            </a>
+        
+            <a href="/en/categories/master/" style="background-color: #2a9d8f; color: #fff;">
+                Master
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/en/post/solid/">Projet SOLID - M1</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 01, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    10 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+        <footer class="article-translations">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+            <div>
+                
+                    <a href="https://example.org/post/solid/" class="link">Francais</a>
+                
+            </div>
+        </footer>
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="https://gitlab.com/AlyssaShep/ter-espace-personnel-de-donnees.git"  target="_blank" rel="noopener"
+    >Lien GitLab</a></p>
+<h2 id="description">Description</h2>
+<p>Ce projet est un site web permettant l&rsquo;importation sur Solid et l&rsquo;exploitation de données personnelles de Google, Instagram ou Facebook.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Ce projet permet d&rsquo;importer les données que l&rsquo;on récupère auprès de Google, Instagram ou Facebook sur un pod Solid. Nous avons ensuite plusieurs exploitations possibles à partir de ces données stoquées comme les informations générales de profil, les images, etc.</p>
+<h2 id="solid">Solid</h2>
+<p><img src="/en/post/solid/solid_logo.png"
+	width="225"
+	height="225"
+	srcset="/en/post/solid/solid_logo_hu4b7ac99f7e265e91d1267c599bb9e91a_2731_480x0_resize_box_3.png 480w, /en/post/solid/solid_logo_hu4b7ac99f7e265e91d1267c599bb9e91a_2731_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="Solid"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<p>La technologie Solid (Social Linked Data) est une initiative créée par Tim Berner
+Lee pour le World Wide Web Consortium (W3C). Solid vise à redonner aux utilisateurs
+le contrôle total de leurs données personnelles en ligne. Cette technologie permet aussi
+de créer des espaces personnels de données, appelés ”Pods”, où les utilisateurs peuvent
+stocker, gérer et partager leurs informations de manière sécurisée.</p>
+<p>Dans Solid, les données sont stockées sur des modules de données personnels, accessibles via le Web. Les agents ont le contrôle sur l&rsquo;accès à leurs données sur ces modules. Les modules de données peuvent être connectés tant qu&rsquo;il y a une connexion Internet et des contrôles d&rsquo;accès appropriés.</p>
+<p>Les agents peuvent choisir librement parmi différents fournisseurs pour stocker leurs données. Actuellement, les principaux fournisseurs sont inrupt.net et solidcommunity.net.</p>
+<h2 id="fonctionnalités">Fonctionnalités</h2>
+<p>Pour pouvoir utliser toutes les fonctionnalités de notre application, il faut d&rsquo;abord faire la première étape sur la page principale : la connexion.</p>
+<h3 id="accueil">Accueil</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		<script src="/shortcode-gallery/jquery-3.7.0.min.js"></script>
+	
+	
+	
+		<script src="/shortcode-gallery/lazy/jquery.lazy.min.js"></script>
+	
+
+	<script src="/shortcode-gallery/swipebox/js/jquery.swipebox.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/swipebox/css/swipebox.min.css">
+
+	<script src="/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/justified_gallery/justifiedGallery.min.css"/>
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-0-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-0" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/page_intro/1.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="305"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO9PhLTXJK6jqZ57Xr/4VX/4ROzEm19Z1CFm5Ef2pm49eQK32ubRCT5LtzjCxileS1ZSArKT3CrkfnXRzz7sx5YmGvhCw3Aya1qTAdhcFakXwppSMHXU9TJU5AN4xBraE1oAAYifcqOaXzrQ8CLr/s0c8/MOWPkf/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/page_intro/1_hu4d866b13e08b71d88d129e050374a1fd_81115_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/page_intro/2.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="256"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APVVsBKgBklx7OR/KpvsI/56vVVIbsNu&#43;0fJt4XJqTy7n/nsf&#43;&#43;jWuvcz07E/wBhH/PV6Q2QUbvNfjmofLuf&#43;ex/76NIY7jHMp/76NGvcNOx/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/page_intro/2_hu8f7d5e1de97c3cdb9df2164103d74e23_54788_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-0");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Sur la page principale, nous avons plusieurs fonctionnalités :</p>
+<ul>
+<li>
+<p>la connexion : L&rsquo;utilisateur peut choisir de se connecter parmi différents fournisseurs pour stocker leurs données. Nous avons lister les principaux fournisseurs: inrupt.net et solidcommunity.net. Apres son choix, il sera redirigé vers le fournisseur.</p>
+</li>
+<li>
+<p>changer le nom rattaché au Pod</p>
+</li>
+<li>
+<p>trouver le nom d&rsquo;un pod à partir du WebID (adresse d&rsquo;un Pod)</p>
+</li>
+<li>
+<p>Un affichage des dossiers à la racine du pod est affiché</p>
+</li>
+<li>
+<p>Ajouter sur le pod une archive ou un dossier des données du réseau conserné (Google, Facebook ou Instagram)</p>
+</li>
+<li>
+<p>Voir les données ajoutées au Pod en fonction du réseau sélectionné</p>
+</li>
+</ul>
+<h1 id="image-liste-deroulante-partie-connexion">image liste deroulante partie connexion</h1>
+<h2 id="interprétations-des-données">Interprétations des données</h2>
+<h3 id="calendrier">Calendrier</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-1-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-1" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/calendrier/3.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="306"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APTh4U0E5L6PZEk9oRUA8IaC&#43;5n0a3Rz/CjED9MfyrfpKvnl3J5Y9jAPhHQ45EKaJbSDuZHJx&#43;BzmrP/AAi2gR/OmkWisvIIiHBrWpH&#43;430o55dw5Y9j/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/calendrier/3_hude253e90a54d3c11e64c446491b3b090_57246_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/calendrier/4.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="307"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APUh4a0QkltIsSSf&#43;eC/4VSg8O6FdK8n9j2yNuxhNyg4/AfyroaruUAJCZI7ZGT&#43;tXzy7k8q7GSfDGjxyoU0W1cY&#43;YyEnH0BBB/SrX/COaInzrpNmrLyCIF4P5VbADbTgKfTjr&#43;dTv8Acb6Uc8u4csex/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/calendrier/4_hu68963ed18a593580fba9e91906df9ca5_126856_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/calendrier/5.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="293"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APZFXHcn6moo0kVCDOzknOWC5HtwBU1RiNPMEhX5wNufagBjxSsysLl0C9VVVw31yP5VM3CH6VVvPPkkjihjPDB2csQuM8jg5J9ulWn&#43;430ptaCTuf/Z"
+							
+							class="lazy"
+							data-src="/en/post/solid/images/calendrier/5_hub093e49e4a0e75a3aea5857f50439841_59932_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/calendrier/6.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="291"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APZFUD1/E1jXWrvZTfZ94lYjdul3Jj2BWMg/nW1XPapptzcXvmQQ7wBhg1tE4z9XYGgB8Or3N3dRRpJCnPzBJSdw6n70Y/Qit1uEP0rAtINXjuEDIyxlhv8A3ESgj6rIT&#43;hrff7jfSgD/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/calendrier/6_hu68e8b84248944e1fde875ce12b570192_110897_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-1");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Nous avons fait un affichage en calendrier pour les messages Facebook et Instagram ainsi que pour les mails de Google. En effet, nous avons opté de faire ceci car tous les utilisateurs n&rsquo;activent pas forcément la géolocalisation, rendant l&rsquo;exploitation de données de positions impossibles. On peut consulter le calendrier sur le mois, semaine, jour ou en liste.</p>
+<h3 id="profil">Profil</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-2-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-2" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/profil/7.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="303"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO5sPCmmajbfafN1WLczDbJcup4JGcH1xUreBLIsSmo6ioPb7QT/ADrU0lDcO95PEBKuY0PlOhC9ejHvxyB7c1qVp7Wfcj2cexy6&#43;BLEMC&#43;o6i4Hb7QR/KpR4J02MhxdaiSvIzdsRXR01vun6Ue1n3D2cex//9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/profil/7_hufcb0830395333e1cf8b9e405c4115586_167797_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-2");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Nous avons choisi de faire un onglet spécifique à la visualisation des informations personnelles. Il regroupe les noms, emails, date de naissance et autres informations.</p>
+<h3 id="listes-des-activités">Listes des activités</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-3-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-3" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/ip/8.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="305"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO8XwfaO3zXmqZPJIvHAobwTa7zs1fVFB7G4JroNn73bufGP7xrxnX/ij4m0rx1d6PbTW/2WK8ESh4tzbcgdc1p7Wfcj2cex6KPBlmsgEur6owx0Fww/UVPH4N09HWRb/VDtIIBu2INbsrsgBBP5URu7qSTjHtR7WfcPZx7H/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/ip/8_hua9cff1c50a4997c4c1d3a8be2b2b8cfc_172541_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-3");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Les &ldquo;données de trafic&rdquo; sont les informations générées lors de l&rsquo;utilisation de réseaux (Ip, etc), ces données sont présentes dans la récupération fournie par Google. Nous avons donc fait un tableau avons les dates d&rsquo;activités, l&rsquo;adresse Ip et ce que l&rsquo;appareil était en train de faire (Gmail, ect).</p>
+<h3 id="photos">Photos</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-4-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-4" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/photos/9.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="304"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AKM3ibUptUVmuTG73C/IwBduecnsMHpWldeJ/ER8T2&#43;nR3gs4lHloYkLeYuRywPGcDGe3NZdp4n1K4HmXskM04jdkD2sZ55xg7fYH860Zr6zScXtxZmZ4NxiZmUFWxxwFolJLccacmdssK&#43;UJMqCGH4nNeHW2k20dvYXiSBpZLiPaoHUk8j/AD6VWHxB8VA5Grvx/wBMo/8A4msW2vLhLqF1kwyOCpwODmlYaZ//2Q=="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/photos/9_huf98bdda2c2c3a8ae57d5f98f8598ea93_2603289_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/photos/Pasted%20image.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="279"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA8AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOcHxD8LnJfwVISTnjVZB/7LTG8feGSxK&#43;EbhAf4RqhIH5oa8/orT2tT&#43;Zkckex6vD4m8HNdpC2gXjMzBdpvMDn6AVpWeqeG7i4hSDwhdNI7gLtv2O3PIJ54rkrTVdO&#43;ypZtGxnLqip5YCq24EvnrnrXY6dpkB1pLtjJCIWaPcCMMQO4H49u35EqtRNLmZtChGUXK2x//9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/photos/Pasted%20image_huc4dcd095942e230f52920dae24344396_746660_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-4");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Nous pouvons récupérés les photos sur Google et Instagram. Les métadonnées sont affichées lorsqu&rsquo;on passe la souris sur l&rsquo;image en question.</p>
+<h3 id="messages">Messages</h3>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-5-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-5" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/messages/9fe.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="600" height="304"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANy5uvDsF68LWOtuoPMiTykfgM1oafpfh/Vo3mt5NcgVDtKu0vJ6&#43;9dYNF0vczHT7dmY5JeMMSfxp66VpyDC2Fsv0hX/AArT2k&#43;5HJHsYdv4N0mUeYLnU3UcYkuHT/A1OPBekqQQ97x/0&#43;Sf41vgADAGAKKPaz7hyR7H/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/messages/9fe_huf302003ef249eb02081f03d623f00804_88222_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-5");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Nous avons exploité les messages de Facebook et donc refait le fil des différentes discussions en spécifiant le nom de la personne qui parle puit son message.</p>
+<h2 id="démo">Démo</h2>
+<div class="video-wrapper">
+    <video
+    controls
+    src="demo/montage_final.mp4"
+    
+    
+    >
+        <p>
+            Your browser doesn't support HTML5 video. Here is a
+            <a href="demo/montage_final.mp4">link to the video</a> instead.
+        </p>
+    </video>
+</div>
+
+<h2 id="utilisation-du-projet">Utilisation du projet</h2>
+<h3 id="installations">Installations</h3>
+<ul>
+<li>nodejs</li>
+<li>npm</li>
+</ul>
+<h3 id="lancement">Lancement</h3>
+<pre tabindex="0"><code>git clone https://gitlab.com/AlyssaShep/ter-espace-personnel-de-donnees.git
+</code></pre><pre tabindex="0"><code>npm install
+</code></pre><pre tabindex="0"><code>npm run build &amp;&amp; npm run start
+</code></pre><p>Ouvrez un navigateur à l&rsquo;adresse : http://localhost:8080/</p>
+<h2 id="implémentation">Implémentation</h2>
+<h3 id="interface-utilisateur">Interface utilisateur</h3>
+<p>L&rsquo;interface utilisateur (UI) est la couche visible de l&rsquo;application, permettant aux utilisateurs d&rsquo;interagir. Lors de la conception, nous avons pensé à faire une page de connexion au Pods pour obtenir le token permettant de faire les différentes opérations sur un Pod, sans ça, nous ne pouvons rien faire sur un Pod (récupération, modification, ajout de données&hellip;). Par la suite, pendant la phase de développement, nous avons ajouté le formatage du nom du Pod et de faire une recherche de nom (pour savoir si un utilisateur avec ce nom là existe).</p>
+<h3 id="accueil-1">Accueil</h3>
+<h4 id="connexion">Connexion</h4>
+<p>Tout d&rsquo;abord, pour pouvoir faire une opération sur notre Pod, il faut se connecter. Pour cette partie, nous utilisons &lsquo;solid-client-authn-browser&rsquo; d&rsquo;Inrupt. Par la suite, il faut choisir avec quoi on va se connecter : &lsquo;solidcommunity.net&rsquo;, &lsquo;inrupt.net&rsquo;, &lsquo;.inrupt.com&rsquo; ou encore &lsquo;solidweb.org&rsquo;. La sélection se fait à partir d&rsquo;une liste déroulante.</p>
+<p>Ceci est possible grâce au code suivant. Cette fonction est utilisée pour initier le processus de connexion. Si l&rsquo;utilisateur n&rsquo;est pas déjà connecté, elle appelle la fonction &rsquo;login()&rsquo; pour effectuer la connexion. Elle spécifie également le nom du client et l&rsquo;URL de redirection pour le processus de connexion.</p>
+<p>Cette fonction est utilisée pour gérer la redirection après le processus de connexion. Elle appelle la fonction &lsquo;handleIncomingRedirect()&rsquo; pour terminer le processus de connexion en récupérant les informations de session. Si l&rsquo;utilisateur est connecté avec succès, elle met à jour la page avec le statut de connexion et le WebID de l&rsquo;utilisateur.</p>
+<h4 id="modificationrecherche-du-nom">Modification/recherche du nom</h4>
+<p>Nous avons mis en place une fonction permettant à l&rsquo;utilisateur de modifier le nom de son Pod. Bien qu&rsquo;optionnel, cela permet encore une fois à l&rsquo;utilisateur un contrôle totale sur ses données.</p>
+<p>De plus, nous avons décider de permettre à l&rsquo;utilisateur d&rsquo;afficher le nom de son Pod par son webID.</p>
+<h4 id="affichage-des-dossiers">Affichage des dossiers</h4>
+<p>Nous avons une section qui permet de voir tous les dossiers présents à la racine de &lsquo;Your storage&rsquo; présent dans le Pod. En effet, pour la recherche, on a besoin du WebID du Pod et appliquer la fonction getSolidDataset de &lsquo;@inrupt/solid-client&rsquo; pour récupérer le jeu de données Solid associé à l&rsquo;URL du Pod. Avec ce jeu de données, on utilise la fonction &lsquo;getThingAll&rsquo; pour obtenir tous les objets (ou ressources) contenus dedans. Puis, nous appliquons un filtre pour obtenir que les dossiers. Le filtre s&rsquo;applique sur les url des objets obtenus (l&rsquo;url d&rsquo;un dossier finira par &lsquo;/&rsquo;).</p>
+<p>Puis, nous avons implémentés une fonction qui gère l&rsquo;affichage de dossier. S&rsquo;il n&rsquo;y a pas de dossiers, un message d&rsquo;informations nous le signalera sinon chaque dossiers présent sur le Pod seront listés de façon a ce que l&rsquo;utilisateur sache toutes les données qu&rsquo;il stocke pour le moment.</p>
+<h4 id="ajout-sur-le-pod">Ajout sur le pod</h4>
+<p>Une autre section permet a l&rsquo;utilisateur de prendre un fichier de n&rsquo;importe quel type, un dossier ou une archive et de le mettre sur le Pod dans le dossier public.</p>
+<h4 id="affichage-des-fichiers-dans-un-dossier-pod">Affichage des fichiers dans un dossier Pod</h4>
+<p>Enfin, dans la dernière section, nous avons un affichage des fichiers et sous-dossier présent sur un dossier contenant les données personnelles récoltées sur Google, Facebook ou encore Instagram. Le dossier en question doit porter le nom du réseau en question et doit être mis à la racine de &lsquo;Your storage&rsquo;.</p>
+<p>Cette fonction est faite en 2 parties et est récursive. En effet, nous avons la même logique que pour la recherche de dossier mais l&rsquo;url de recherche sera différent : le dossier du réseau étant dans public nous devons faire une recherche de sa présence dedans (UrlWithPublic).</p>
+<p>Nous récuperons ensuite la liste des Url présents dans ce dernier. Cependant, si on ne faisait qu&rsquo;un passage sur UrlWithPublic, nous aurions que la liste des objets présents et non TOUS les éléments. Ainsi, Nous récuperons tous les éléments de ces sous-dossiers par la fonction getAllInsideFolderRecursive. Si c&rsquo;est un fichier, la fonction n&rsquo;ajoutera que le lien du fichier sinon il bouclera jusqu&rsquo;à ce qu&rsquo;il tombe sur un fichier (parcours en profondeur). Comme les dossiers présents dans &lsquo;Your storage&rsquo;, une fonction d&rsquo;affichage est présente. Et permet l&rsquo;apparition d&rsquo;un bouton &lsquo;Voir les interprétations&rsquo; et ainsi d&rsquo;être redirigé vers les interprétations.</p>
+<h3 id="interprétations-des-données-1">Interprétations des données</h3>
+<p>La seconde partie de ce projet étant l&rsquo;interprétation des données, nous avons dans un premier temps dû analyser les données récupérés.
+Par interprétation des données on entend la mise en place d&rsquo;une interface utilisateur permettant à ce dernier de parcourir l&rsquo;ensemble de ses données de façon visuelle et interactive. Lorsque nous avons récupéré nos données personnelles sur ces réseaux, nous avons constatés que les formats des fichiers n&rsquo;étaient pas tous les mêmes. Cela a représenté un grands défi à relever dans ce projet. En effet, pour les données Instagram et Facebook, nous avons exclusivement des fichiers JSON. Cependant, ce n&rsquo;est pas le cas de Google. On retrouve au sein des données Google des formats de type : JSON, CSV, txt, ics, html, vcf, jpg &hellip; Il y a une multitude de formats possibles, ce en partie à cause du Google Drive.</p>
+<p>Dans un premier temps, nous pensions à convertir l&rsquo;ensemble de nos fichier en RDF. Cependant, nous avons décidé de ne pas convertir nos données en RDF pour plusieurs raisons. Tout d&rsquo;abord, à cause du nombres de formats indéterminés sur le Google Drive. De plus, Solid nous permet de déposer des données non RDF. Mais surtout à cause des formats majoritaires qui sont le JSON et le CSV. Sans oublier que chaque prédicat dans les fichiers RDF comportent des URI, ce qui peut très rapidement devenir compliqué à mettre en place.</p>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-4769f148fde57e966eeb437aac23842a-7-wrapper" class="gallery-wrapper">
+<div id="gallery-4769f148fde57e966eeb437aac23842a-7" class="justified-gallery">
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/logo/csv.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="512" height="512"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APYbiQxQM69R61R&#43;3T&#43;q/lVm&#43;ljWAxtIod/uqTyeewrmL7yvtb7vJzx94Pnp7cUXsjKpPkVzbl1SWAK7gMu4BgB2rUjkWWNZEYMrDIIrlLa53skBa3KdNoV/610enqFtQFAAyeBTumgpzU9UcX41le08VWl5FxLFagKTyOS46fjUK6rq7SrELm18zOGTacpwTyMc9O2a2PFfhy/1fUorm08sosIQhmwcgk/1rPPhnXC4drWyLZy7Fjl&#43;COfTr2xXO&#43;ZSZ5NSNdVpWva/S5WOr6wGAWe2dSSCyrwMLuyeOOP5Gtbwfr17qV9LaXJQxrEZBhcEHIH9apSeGvEMnnjZbqJwqsBJ0A4GCeenH41oeFPDl/pGoy3F35YVoSgCtk5JB/pQubmQ6X1j20fit1uf/9k="
+							
+							class="lazy"
+							data-src="/en/post/solid/images/logo/csv_hu12f49182db8306f57194831d5739851a_14247_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			<div>
+				
+				
+					
+				
+				<a href="/en/post/solid/images/logo/JSON_logo.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="458" height="417"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAB0AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APSvF/ie38JaBLqcyeY&#43;RHBFnHmSHoPpwSfYGvGkufGfjSY3k011LEzYSKJ/LiHsq55/U123xmtpbm00jGTEs0m703YGP03VteEPssN3HZxhVENuBEPpjP4//XoA5HRNY13w&#43;ro00zLBnfbzkkDHUc9Pwr0/RNYt9d0qHULY/LIMMp6ow6g1yXj17SzF5euVXFttb/acggD&#43;VVvgtLNN4cv3fPlfbDsz67Fz/SgDtdc0a313TXsrjjJDI&#43;OUYdD/AJ9a831zSNf0V1mhgnYxfcmtwWxjvxyK9ZrCaxvriKFl1SWIqqDKg5bHXPzYJJ9vamI8gHhvxl42vUimjuY7fdlri6UoiepAP3j9K9p8O6DaeGtDt9KswfLhXlj1djyWPuTVNLC&#43;tpfOfVppFJRRHzgfOvPLHsCPxrfoA//Z"
+							
+							class="lazy"
+							data-src="/en/post/solid/images/logo/JSON_logo_hud3c884b168d2def79d1f4e2133aa9e8d_71322_600x600_fit_q90_lanczos_3.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-4769f148fde57e966eeb437aac23842a-7");
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						visibleOnly: true,
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : "150",
+			margins : "5",
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+</script>
+
+<p>Le JSON est un format de données textuelles largement utilisé pour structurer et représenter des données de manière lisible par l&rsquo;homme. Il est souvent utilisé dans le développement web et les API, car il est facilement interprétable par JavaScript et de nombreux autres langages de programmation. Le JSON prend en charge les structures de données complexes telles que les objets et les tableaux, et il est bien adapté pour représenter des hiérarchies de données avec des propriétés clés-valeurs.</p>
+<p>Le CSV quant à lui est un format de données tabulaire simple où chaque ligne représente un enregistrement et les valeurs sont séparées par des virgules (ou parfois par d&rsquo;autres délimiteurs). Le CSV est largement utilisé pour échanger des données tabulaires entre différentes applications, notamment les feuilles de calcul, les bases de données et les outils d&rsquo;analyse de données. Il est généralement plus léger en termes de taille de fichier que le JSON, ce qui peut être un avantage dans certains scénarios où l&rsquo;espace est limité.</p>
+<p>Ainsi, ces deux formats sont parfaits pour l&rsquo;interprétation de données.</p>
+<p>Ce sont donc les formats de données que nous avons choisis de conserver pour la mise en place de l&rsquo;interprétation et de l&rsquo;analyse de nos données.</p>
+<h4 id="calendrier-1">Calendrier</h4>
+<p>Pour les données du calendrier, en fonction du réseau que l&rsquo;on sélectionne, on ira chercher des informations différentes sur le Pod. Pour Google, ce sera les mails. Pour Facebook, les likes et pour Instagram, les commentaires.</p>
+<p>Il faut transformer ses données pour le calendrier. On utilise nos fonctions :</p>
+<ul>
+<li>
+<p>&ldquo;mboxToJson(..)&rdquo; : tranforme les emails en Json</p>
+</li>
+<li>
+<p>&ldquo;tranformGoogleMailForCalendar(..)&rdquo; : prend le fichier Json résultat de la fonction précédente (mboXToJson(..)) et fait un affichage que l&rsquo;on définit pour notre calendrier</p>
+</li>
+<li>
+<p>&ldquo;transformCommentDataForCalendar(..)&rdquo; : transforme les commentaires de Facebook ou Instagram sous format Json en notre affichage personnalisé pour le donner au calendrier</p>
+</li>
+</ul>
+<p>Une fois qu&rsquo;on a les informations sont transformés, on utlise les fonctions displayFileOnCalendar(..) pour faire l&rsquo;affichage.</p>
+<h4 id="profil-1">Profil</h4>
+<p>Pour l&rsquo;affichage des informations des profils, on utilise notre fonction getFileProfil(..). Il faut d&rsquo;abord recupérer les informations sur le Pod, puis on les traite.</p>
+<ul>
+<li>
+<p>Pour instagram, les informations sont fragmentées en 4 fichiers. On récupère aussi la photo de profil sur le Pod.</p>
+</li>
+<li>
+<p>Pour Google, les informations ne sont pas fragmentées mais sont dans 1 seul fichier. La photo de profil est aussi sur un fichier à part.</p>
+</li>
+<li>
+<p>Pour Facebook, les informations sont aussi dans 1 seul fichier.</p>
+</li>
+</ul>
+<p>Une fois que les informations sont préparés, on les affiche sur la page de Profil.</p>
+<h4 id="liste-dactivité">Liste d&rsquo;activité</h4>
+<p>Notre fonction GetDevices(..) permet de récupérer, pour Google, 2 fichiers :</p>
+<ul>
+<li>
+<p>la liste des services utilisés</p>
+</li>
+<li>
+<p>la liste des appareils</p>
+</li>
+</ul>
+<p>Il reste plus qu&rsquo;à afficher les données en tableau pour plus de clareté.</p>
+<h4 id="photos-1">Photos</h4>
+<p>Pour l&rsquo;affichage des photos, on doit d&rsquo;abord sélectionner le réseau que l&rsquo;on souhaite voir grâce à la liste déroulante. Notre fonction &ldquo;affichagePhotos(..)&rdquo; va prendre les données consernées sur le Pod Solid puis va les afficher en ajoutant les images une à une sur la page.</p>
+<h4 id="messages-1">Messages</h4>
+<p>Pour l&rsquo;affichage des messages, on doit les récupérer du Pod Solid. Les données sont stockés sous le format Json. L&rsquo;utilisateur peut sélectionner la conversation qu&rsquo;il souhaite voir avec la liste déroulante. Les noms des conversations sont obtenus grâce à la fonction &ldquo;getConversationName(..)&rdquo;.
+Une fois la conversation sélectionné, on affiche les messages avec
+la fonction &ldquo;getFacebookMessage(..)&rdquo;. On extrait l&rsquo;auteur, le message et la date du message. Puis on l&rsquo;affiche avec &ldquo;displayConversation(..)&rdquo;.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/en/tags/js/">JS</a>
+        
+            <a href="/en/tags/node-js/">Node Js</a>
+        
+            <a href="/en/tags/npm/">Npm</a>
+        
+            <a href="/en/tags/css/">CSS</a>
+        
+            <a href="/en/tags/html/">HTML</a>
+        
+            <a href="/en/tags/solid/">SOLID</a>
+        
+            <a href="/en/tags/inrupt/">Inrupt</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/en/post/tournoi-sportif/">
+        
+        
+            <div class="article-image">
+                <img src="/en/post/tournoi-sportif/accueil.4edfc5ac7ae88744e54bfb8646b0b3a7_hue95412a5f91bb216da81d3c7048233bc_135793_250x150_fill_q75_box_smart1.JPG" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Projet L2 - Tournoi Sportif"
+                        
+                        data-hash="md5-Tt/FrHroh0TlS/uGRrCzpw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Projet L2 - Tournoi Sportif</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 PorteFolio Océane Ongaro
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.20.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

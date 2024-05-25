@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Arduino on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/en/categories/arduino/</link>
+        <description>Recent content in Arduino on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/en/categories/arduino/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IoT capteur TTGO T-Display - M2</title>
+        <link>https://example.org/en/post/iot/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/post/iot/</guid>
+        <description>&lt;img src="https://example.org/en/post/iot/IoT.jpg" alt="Featured image of post IoT capteur TTGO T-Display - M2" /&gt;&lt;h2 id=&#34;but&#34;&gt;But&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;objectif du projet est d&amp;rsquo;implémenter une API RESTful sur un capteur TTGO T-Display.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;API doit permettre de lister les capteurs (température/lumière) connectés à l&amp;rsquo;ESP32, de récupérer les informations associées à ce ou ces capteurs,  de contrôler l&amp;rsquo;allumage, l&amp;rsquo;extinction, le changement d&amp;rsquo;état d&amp;rsquo;une LED connectée à l&amp;rsquo;ESP32, de définir un seuil permettant d&amp;rsquo;allumer/éteindre la LED en fonction de la valeur captée par un des capteurs connecté à l&amp;rsquo;ESP32.&lt;/p&gt;
+&lt;p&gt;Le respect des règles classiques (usuelles) de développement logiciel sont également attendues (programmation modulaire, commentaires, tests unitaires, documentation, &amp;hellip;).&lt;/p&gt;
+&lt;p&gt;Ce projet est en cours pour ma dernière année de Master.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
