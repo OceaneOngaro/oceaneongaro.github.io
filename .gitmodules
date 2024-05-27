@@ -2,6 +2,6 @@
 	path = themes/hugo-theme-stack
 	url = https://github.com/CaiJimmy/hugo-theme-stack.git
 
-[submodule "themes/wowchemy-hugo-themes]
+[submodule "themes/wowchemy-hugo-themes"]
 	path = themes/wowchemy-hugo-themes
 	url = https://github.com/chrisdonahue/wowchemy-hugo-themes.git
