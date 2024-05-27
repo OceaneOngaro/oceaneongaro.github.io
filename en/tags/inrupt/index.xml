@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Inrupt on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/en/tags/inrupt/</link>
+        <description>Recent content in Inrupt on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/en/tags/inrupt/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Projet SOLID - M1</title>
+        <link>https://example.org/en/post/solid/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/post/solid/</guid>
+        <description>&lt;img src="https://example.org/en/post/solid/solid.png" alt="Featured image of post Projet SOLID - M1" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/ter-espace-personnel-de-donnees.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Ce projet est un site web permettant l&amp;rsquo;importation sur Solid et l&amp;rsquo;exploitation de données personnelles de Google, Instagram ou Facebook.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Ce projet permet d&amp;rsquo;importer les données que l&amp;rsquo;on récupère auprès de Google, Instagram ou Facebook sur un pod Solid. Nous avons ensuite plusieurs exploitations possibles à partir de ces données stoquées comme les informations générales de profil, les images, etc.&lt;/p&gt;
+&lt;h2 id=&#34;solid&#34;&gt;Solid&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.org/en/post/solid/solid_logo.png&#34;
+	width=&#34;225&#34;
+	height=&#34;225&#34;
+	srcset=&#34;https://example.org/en/post/solid/solid_logo_hu4b7ac99f7e265e91d1267c599bb9e91a_2731_480x0_resize_box_3.png 480w, https://example.org/en/post/solid/solid_logo_hu4b7ac99f7e265e91d1267c599bb9e91a_2731_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Solid&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;La technologie Solid (Social Linked Data) est une initiative créée par Tim Berner
+Lee pour le World Wide Web Consortium (W3C). Solid vise à redonner aux utilisateurs
+le contrôle total de leurs données personnelles en ligne. Cette technologie permet aussi
+de créer des espaces personnels de données, appelés ”Pods”, où les utilisateurs peuvent
+stocker, gérer et partager leurs informations de manière sécurisée.&lt;/p&gt;
+&lt;p&gt;Dans Solid, les données sont stockées sur des modules de données personnels, accessibles via le Web. Les agents ont le contrôle sur l&amp;rsquo;accès à leurs données sur ces modules. Les modules de données peuvent être connectés tant qu&amp;rsquo;il y a une connexion Internet et des contrôles d&amp;rsquo;accès appropriés.&lt;/p&gt;
+&lt;p&gt;Les agents peuvent choisir librement parmi différents fournisseurs pour stocker leurs données. Actuellement, les principaux fournisseurs sont inrupt.net et solidcommunity.net.&lt;/p&gt;
+&lt;h2 id=&#34;fonctionnalités&#34;&gt;Fonctionnalités&lt;/h2&gt;
+&lt;p&gt;Pour pouvoir utliser toutes les fonctionnalités de notre application, il faut d&amp;rsquo;abord faire la première étape sur la page principale : la connexion.&lt;/p&gt;
+&lt;h3 id=&#34;accueil&#34;&gt;Accueil&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/jquery-3.7.0.min.js&#34;&gt;&lt;/script&gt;
+	
+	
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/page_intro/1.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;305&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AO9PhLTXJK6jqZ57Xr/4VX/4ROzEm19Z1CFm5Ef2pm49eQK32ubRCT5LtzjCxileS1ZSArKT3CrkfnXRzz7sx5YmGvhCw3Aya1qTAdhcFakXwppSMHXU9TJU5AN4xBraE1oAAYifcqOaXzrQ8CLr/s0c8/MOWPkf/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/page_intro/1_hu4d866b13e08b71d88d129e050374a1fd_81115_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/page_intro/2.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;256&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APVVsBKgBklx7OR/KpvsI/56vVVIbsNu&amp;#43;0fJt4XJqTy7n/nsf&amp;#43;&amp;#43;jWuvcz07E/wBhH/PV6Q2QUbvNfjmofLuf&amp;#43;ex/76NIY7jHMp/76NGvcNOx/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/page_intro/2_hu8f7d5e1de97c3cdb9df2164103d74e23_54788_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-0&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Sur la page principale, nous avons plusieurs fonctionnalités :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;la connexion : L&amp;rsquo;utilisateur peut choisir de se connecter parmi différents fournisseurs pour stocker leurs données. Nous avons lister les principaux fournisseurs: inrupt.net et solidcommunity.net. Apres son choix, il sera redirigé vers le fournisseur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;changer le nom rattaché au Pod&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;trouver le nom d&amp;rsquo;un pod à partir du WebID (adresse d&amp;rsquo;un Pod)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Un affichage des dossiers à la racine du pod est affiché&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ajouter sur le pod une archive ou un dossier des données du réseau conserné (Google, Facebook ou Instagram)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Voir les données ajoutées au Pod en fonction du réseau sélectionné&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;image-liste-deroulante-partie-connexion&#34;&gt;image liste deroulante partie connexion&lt;/h1&gt;
+&lt;h2 id=&#34;interprétations-des-données&#34;&gt;Interprétations des données&lt;/h2&gt;
+&lt;h3 id=&#34;calendrier&#34;&gt;Calendrier&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-1-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-1&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/calendrier/3.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;306&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APTh4U0E5L6PZEk9oRUA8IaC&amp;#43;5n0a3Rz/CjED9MfyrfpKvnl3J5Y9jAPhHQ45EKaJbSDuZHJx&amp;#43;BzmrP/AAi2gR/OmkWisvIIiHBrWpH&amp;#43;430o55dw5Y9j/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/calendrier/3_hude253e90a54d3c11e64c446491b3b090_57246_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/calendrier/4.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;307&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APUh4a0QkltIsSSf&amp;#43;eC/4VSg8O6FdK8n9j2yNuxhNyg4/AfyroaruUAJCZI7ZGT&amp;#43;tXzy7k8q7GSfDGjxyoU0W1cY&amp;#43;YyEnH0BBB/SrX/COaInzrpNmrLyCIF4P5VbADbTgKfTjr&amp;#43;dTv8Acb6Uc8u4csex/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/calendrier/4_hu68963ed18a593580fba9e91906df9ca5_126856_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/calendrier/5.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;293&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APZFXHcn6moo0kVCDOzknOWC5HtwBU1RiNPMEhX5wNufagBjxSsysLl0C9VVVw31yP5VM3CH6VVvPPkkjihjPDB2csQuM8jg5J9ulWn&amp;#43;430ptaCTuf/Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/calendrier/5_hub093e49e4a0e75a3aea5857f50439841_59932_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/calendrier/6.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;291&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APZFUD1/E1jXWrvZTfZ94lYjdul3Jj2BWMg/nW1XPapptzcXvmQQ7wBhg1tE4z9XYGgB8Or3N3dRRpJCnPzBJSdw6n70Y/Qit1uEP0rAtINXjuEDIyxlhv8A3ESgj6rIT&amp;#43;hrff7jfSgD/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/calendrier/6_hu68e8b84248944e1fde875ce12b570192_110897_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-1&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Nous avons fait un affichage en calendrier pour les messages Facebook et Instagram ainsi que pour les mails de Google. En effet, nous avons opté de faire ceci car tous les utilisateurs n&amp;rsquo;activent pas forcément la géolocalisation, rendant l&amp;rsquo;exploitation de données de positions impossibles. On peut consulter le calendrier sur le mois, semaine, jour ou en liste.&lt;/p&gt;
+&lt;h3 id=&#34;profil&#34;&gt;Profil&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-2-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-2&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/profil/7.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;303&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AO5sPCmmajbfafN1WLczDbJcup4JGcH1xUreBLIsSmo6ioPb7QT/ADrU0lDcO95PEBKuY0PlOhC9ejHvxyB7c1qVp7Wfcj2cexy6&amp;#43;BLEMC&amp;#43;o6i4Hb7QR/KpR4J02MhxdaiSvIzdsRXR01vun6Ue1n3D2cex//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/profil/7_hufcb0830395333e1cf8b9e405c4115586_167797_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-2&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Nous avons choisi de faire un onglet spécifique à la visualisation des informations personnelles. Il regroupe les noms, emails, date de naissance et autres informations.&lt;/p&gt;
+&lt;h3 id=&#34;listes-des-activités&#34;&gt;Listes des activités&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-3-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-3&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/ip/8.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;305&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AO8XwfaO3zXmqZPJIvHAobwTa7zs1fVFB7G4JroNn73bufGP7xrxnX/ij4m0rx1d6PbTW/2WK8ESh4tzbcgdc1p7Wfcj2cex6KPBlmsgEur6owx0Fww/UVPH4N09HWRb/VDtIIBu2INbsrsgBBP5URu7qSTjHtR7WfcPZx7H/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/ip/8_hua9cff1c50a4997c4c1d3a8be2b2b8cfc_172541_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-3&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Les &amp;ldquo;données de trafic&amp;rdquo; sont les informations générées lors de l&amp;rsquo;utilisation de réseaux (Ip, etc), ces données sont présentes dans la récupération fournie par Google. Nous avons donc fait un tableau avons les dates d&amp;rsquo;activités, l&amp;rsquo;adresse Ip et ce que l&amp;rsquo;appareil était en train de faire (Gmail, ect).&lt;/p&gt;
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-4-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-4&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/photos/9.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;304&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AKM3ibUptUVmuTG73C/IwBduecnsMHpWldeJ/ER8T2&amp;#43;nR3gs4lHloYkLeYuRywPGcDGe3NZdp4n1K4HmXskM04jdkD2sZ55xg7fYH860Zr6zScXtxZmZ4NxiZmUFWxxwFolJLccacmdssK&amp;#43;UJMqCGH4nNeHW2k20dvYXiSBpZLiPaoHUk8j/AD6VWHxB8VA5Grvx/wBMo/8A4msW2vLhLqF1kwyOCpwODmlYaZ//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/photos/9_huf98bdda2c2c3a8ae57d5f98f8598ea93_2603289_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/photos/Pasted%20image.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;279&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA8AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOcHxD8LnJfwVISTnjVZB/7LTG8feGSxK&amp;#43;EbhAf4RqhIH5oa8/orT2tT&amp;#43;Zkckex6vD4m8HNdpC2gXjMzBdpvMDn6AVpWeqeG7i4hSDwhdNI7gLtv2O3PIJ54rkrTVdO&amp;#43;ypZtGxnLqip5YCq24EvnrnrXY6dpkB1pLtjJCIWaPcCMMQO4H49u35EqtRNLmZtChGUXK2x//9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/photos/Pasted%20image_huc4dcd095942e230f52920dae24344396_746660_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-4&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Nous pouvons récupérés les photos sur Google et Instagram. Les métadonnées sont affichées lorsqu&amp;rsquo;on passe la souris sur l&amp;rsquo;image en question.&lt;/p&gt;
+&lt;h3 id=&#34;messages&#34;&gt;Messages&lt;/h3&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-5-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-5&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/messages/9fe.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;304&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANy5uvDsF68LWOtuoPMiTykfgM1oafpfh/Vo3mt5NcgVDtKu0vJ6&amp;#43;9dYNF0vczHT7dmY5JeMMSfxp66VpyDC2Fsv0hX/AArT2k&amp;#43;5HJHsYdv4N0mUeYLnU3UcYkuHT/A1OPBekqQQ97x/0&amp;#43;Sf41vgADAGAKKPaz7hyR7H/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/messages/9fe_huf302003ef249eb02081f03d623f00804_88222_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-5&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Nous avons exploité les messages de Facebook et donc refait le fil des différentes discussions en spécifiant le nom de la personne qui parle puit son message.&lt;/p&gt;
+&lt;h2 id=&#34;démo&#34;&gt;Démo&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;demo/montage_final.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;demo/montage_final.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;utilisation-du-projet&#34;&gt;Utilisation du projet&lt;/h2&gt;
+&lt;h3 id=&#34;installations&#34;&gt;Installations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lancement&#34;&gt;Lancement&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://gitlab.com/AlyssaShep/ter-espace-personnel-de-donnees.git
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm run build &amp;amp;&amp;amp; npm run start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ouvrez un navigateur à l&amp;rsquo;adresse : http://localhost:8080/&lt;/p&gt;
+&lt;h2 id=&#34;implémentation&#34;&gt;Implémentation&lt;/h2&gt;
+&lt;h3 id=&#34;interface-utilisateur&#34;&gt;Interface utilisateur&lt;/h3&gt;
+&lt;p&gt;L&amp;rsquo;interface utilisateur (UI) est la couche visible de l&amp;rsquo;application, permettant aux utilisateurs d&amp;rsquo;interagir. Lors de la conception, nous avons pensé à faire une page de connexion au Pods pour obtenir le token permettant de faire les différentes opérations sur un Pod, sans ça, nous ne pouvons rien faire sur un Pod (récupération, modification, ajout de données&amp;hellip;). Par la suite, pendant la phase de développement, nous avons ajouté le formatage du nom du Pod et de faire une recherche de nom (pour savoir si un utilisateur avec ce nom là existe).&lt;/p&gt;
+&lt;h3 id=&#34;accueil-1&#34;&gt;Accueil&lt;/h3&gt;
+&lt;h4 id=&#34;connexion&#34;&gt;Connexion&lt;/h4&gt;
+&lt;p&gt;Tout d&amp;rsquo;abord, pour pouvoir faire une opération sur notre Pod, il faut se connecter. Pour cette partie, nous utilisons &amp;lsquo;solid-client-authn-browser&amp;rsquo; d&amp;rsquo;Inrupt. Par la suite, il faut choisir avec quoi on va se connecter : &amp;lsquo;solidcommunity.net&amp;rsquo;, &amp;lsquo;inrupt.net&amp;rsquo;, &amp;lsquo;.inrupt.com&amp;rsquo; ou encore &amp;lsquo;solidweb.org&amp;rsquo;. La sélection se fait à partir d&amp;rsquo;une liste déroulante.&lt;/p&gt;
+&lt;p&gt;Ceci est possible grâce au code suivant. Cette fonction est utilisée pour initier le processus de connexion. Si l&amp;rsquo;utilisateur n&amp;rsquo;est pas déjà connecté, elle appelle la fonction &amp;rsquo;login()&amp;rsquo; pour effectuer la connexion. Elle spécifie également le nom du client et l&amp;rsquo;URL de redirection pour le processus de connexion.&lt;/p&gt;
+&lt;p&gt;Cette fonction est utilisée pour gérer la redirection après le processus de connexion. Elle appelle la fonction &amp;lsquo;handleIncomingRedirect()&amp;rsquo; pour terminer le processus de connexion en récupérant les informations de session. Si l&amp;rsquo;utilisateur est connecté avec succès, elle met à jour la page avec le statut de connexion et le WebID de l&amp;rsquo;utilisateur.&lt;/p&gt;
+&lt;h4 id=&#34;modificationrecherche-du-nom&#34;&gt;Modification/recherche du nom&lt;/h4&gt;
+&lt;p&gt;Nous avons mis en place une fonction permettant à l&amp;rsquo;utilisateur de modifier le nom de son Pod. Bien qu&amp;rsquo;optionnel, cela permet encore une fois à l&amp;rsquo;utilisateur un contrôle totale sur ses données.&lt;/p&gt;
+&lt;p&gt;De plus, nous avons décider de permettre à l&amp;rsquo;utilisateur d&amp;rsquo;afficher le nom de son Pod par son webID.&lt;/p&gt;
+&lt;h4 id=&#34;affichage-des-dossiers&#34;&gt;Affichage des dossiers&lt;/h4&gt;
+&lt;p&gt;Nous avons une section qui permet de voir tous les dossiers présents à la racine de &amp;lsquo;Your storage&amp;rsquo; présent dans le Pod. En effet, pour la recherche, on a besoin du WebID du Pod et appliquer la fonction getSolidDataset de &amp;lsquo;@inrupt/solid-client&amp;rsquo; pour récupérer le jeu de données Solid associé à l&amp;rsquo;URL du Pod. Avec ce jeu de données, on utilise la fonction &amp;lsquo;getThingAll&amp;rsquo; pour obtenir tous les objets (ou ressources) contenus dedans. Puis, nous appliquons un filtre pour obtenir que les dossiers. Le filtre s&amp;rsquo;applique sur les url des objets obtenus (l&amp;rsquo;url d&amp;rsquo;un dossier finira par &amp;lsquo;/&amp;rsquo;).&lt;/p&gt;
+&lt;p&gt;Puis, nous avons implémentés une fonction qui gère l&amp;rsquo;affichage de dossier. S&amp;rsquo;il n&amp;rsquo;y a pas de dossiers, un message d&amp;rsquo;informations nous le signalera sinon chaque dossiers présent sur le Pod seront listés de façon a ce que l&amp;rsquo;utilisateur sache toutes les données qu&amp;rsquo;il stocke pour le moment.&lt;/p&gt;
+&lt;h4 id=&#34;ajout-sur-le-pod&#34;&gt;Ajout sur le pod&lt;/h4&gt;
+&lt;p&gt;Une autre section permet a l&amp;rsquo;utilisateur de prendre un fichier de n&amp;rsquo;importe quel type, un dossier ou une archive et de le mettre sur le Pod dans le dossier public.&lt;/p&gt;
+&lt;h4 id=&#34;affichage-des-fichiers-dans-un-dossier-pod&#34;&gt;Affichage des fichiers dans un dossier Pod&lt;/h4&gt;
+&lt;p&gt;Enfin, dans la dernière section, nous avons un affichage des fichiers et sous-dossier présent sur un dossier contenant les données personnelles récoltées sur Google, Facebook ou encore Instagram. Le dossier en question doit porter le nom du réseau en question et doit être mis à la racine de &amp;lsquo;Your storage&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Cette fonction est faite en 2 parties et est récursive. En effet, nous avons la même logique que pour la recherche de dossier mais l&amp;rsquo;url de recherche sera différent : le dossier du réseau étant dans public nous devons faire une recherche de sa présence dedans (UrlWithPublic).&lt;/p&gt;
+&lt;p&gt;Nous récuperons ensuite la liste des Url présents dans ce dernier. Cependant, si on ne faisait qu&amp;rsquo;un passage sur UrlWithPublic, nous aurions que la liste des objets présents et non TOUS les éléments. Ainsi, Nous récuperons tous les éléments de ces sous-dossiers par la fonction getAllInsideFolderRecursive. Si c&amp;rsquo;est un fichier, la fonction n&amp;rsquo;ajoutera que le lien du fichier sinon il bouclera jusqu&amp;rsquo;à ce qu&amp;rsquo;il tombe sur un fichier (parcours en profondeur). Comme les dossiers présents dans &amp;lsquo;Your storage&amp;rsquo;, une fonction d&amp;rsquo;affichage est présente. Et permet l&amp;rsquo;apparition d&amp;rsquo;un bouton &amp;lsquo;Voir les interprétations&amp;rsquo; et ainsi d&amp;rsquo;être redirigé vers les interprétations.&lt;/p&gt;
+&lt;h3 id=&#34;interprétations-des-données-1&#34;&gt;Interprétations des données&lt;/h3&gt;
+&lt;p&gt;La seconde partie de ce projet étant l&amp;rsquo;interprétation des données, nous avons dans un premier temps dû analyser les données récupérés.
+Par interprétation des données on entend la mise en place d&amp;rsquo;une interface utilisateur permettant à ce dernier de parcourir l&amp;rsquo;ensemble de ses données de façon visuelle et interactive. Lorsque nous avons récupéré nos données personnelles sur ces réseaux, nous avons constatés que les formats des fichiers n&amp;rsquo;étaient pas tous les mêmes. Cela a représenté un grands défi à relever dans ce projet. En effet, pour les données Instagram et Facebook, nous avons exclusivement des fichiers JSON. Cependant, ce n&amp;rsquo;est pas le cas de Google. On retrouve au sein des données Google des formats de type : JSON, CSV, txt, ics, html, vcf, jpg &amp;hellip; Il y a une multitude de formats possibles, ce en partie à cause du Google Drive.&lt;/p&gt;
+&lt;p&gt;Dans un premier temps, nous pensions à convertir l&amp;rsquo;ensemble de nos fichier en RDF. Cependant, nous avons décidé de ne pas convertir nos données en RDF pour plusieurs raisons. Tout d&amp;rsquo;abord, à cause du nombres de formats indéterminés sur le Google Drive. De plus, Solid nous permet de déposer des données non RDF. Mais surtout à cause des formats majoritaires qui sont le JSON et le CSV. Sans oublier que chaque prédicat dans les fichiers RDF comportent des URI, ce qui peut très rapidement devenir compliqué à mettre en place.&lt;/p&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-7-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-4769f148fde57e966eeb437aac23842a-7&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/logo/csv.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;512&#34; height=&#34;512&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APYbiQxQM69R61R&amp;#43;3T&amp;#43;q/lVm&amp;#43;ljWAxtIod/uqTyeewrmL7yvtb7vJzx94Pnp7cUXsjKpPkVzbl1SWAK7gMu4BgB2rUjkWWNZEYMrDIIrlLa53skBa3KdNoV/610enqFtQFAAyeBTumgpzU9UcX41le08VWl5FxLFagKTyOS46fjUK6rq7SrELm18zOGTacpwTyMc9O2a2PFfhy/1fUorm08sosIQhmwcgk/1rPPhnXC4drWyLZy7Fjl&amp;#43;COfTr2xXO&amp;#43;ZSZ5NSNdVpWva/S5WOr6wGAWe2dSSCyrwMLuyeOOP5Gtbwfr17qV9LaXJQxrEZBhcEHIH9apSeGvEMnnjZbqJwqsBJ0A4GCeenH41oeFPDl/pGoy3F35YVoSgCtk5JB/pQubmQ6X1j20fit1uf/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/logo/csv_hu12f49182db8306f57194831d5739851a_14247_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/solid/images/logo/JSON_logo.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;458&#34; height=&#34;417&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAB0AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APSvF/ie38JaBLqcyeY&amp;#43;RHBFnHmSHoPpwSfYGvGkufGfjSY3k011LEzYSKJ/LiHsq55/U123xmtpbm00jGTEs0m703YGP03VteEPssN3HZxhVENuBEPpjP4//XoA5HRNY13w&amp;#43;ro00zLBnfbzkkDHUc9Pwr0/RNYt9d0qHULY/LIMMp6ow6g1yXj17SzF5euVXFttb/acggD&amp;#43;VVvgtLNN4cv3fPlfbDsz67Fz/SgDtdc0a313TXsrjjJDI&amp;#43;OUYdD/AJ9a831zSNf0V1mhgnYxfcmtwWxjvxyK9ZrCaxvriKFl1SWIqqDKg5bHXPzYJJ9vamI8gHhvxl42vUimjuY7fdlri6UoiepAP3j9K9p8O6DaeGtDt9KswfLhXlj1djyWPuTVNLC&amp;#43;tpfOfVppFJRRHzgfOvPLHsCPxrfoA//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/solid/images/logo/JSON_logo_hud3c884b168d2def79d1f4e2133aa9e8d_71322_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-4769f148fde57e966eeb437aac23842a-7&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;Le JSON est un format de données textuelles largement utilisé pour structurer et représenter des données de manière lisible par l&amp;rsquo;homme. Il est souvent utilisé dans le développement web et les API, car il est facilement interprétable par JavaScript et de nombreux autres langages de programmation. Le JSON prend en charge les structures de données complexes telles que les objets et les tableaux, et il est bien adapté pour représenter des hiérarchies de données avec des propriétés clés-valeurs.&lt;/p&gt;
+&lt;p&gt;Le CSV quant à lui est un format de données tabulaire simple où chaque ligne représente un enregistrement et les valeurs sont séparées par des virgules (ou parfois par d&amp;rsquo;autres délimiteurs). Le CSV est largement utilisé pour échanger des données tabulaires entre différentes applications, notamment les feuilles de calcul, les bases de données et les outils d&amp;rsquo;analyse de données. Il est généralement plus léger en termes de taille de fichier que le JSON, ce qui peut être un avantage dans certains scénarios où l&amp;rsquo;espace est limité.&lt;/p&gt;
+&lt;p&gt;Ainsi, ces deux formats sont parfaits pour l&amp;rsquo;interprétation de données.&lt;/p&gt;
+&lt;p&gt;Ce sont donc les formats de données que nous avons choisis de conserver pour la mise en place de l&amp;rsquo;interprétation et de l&amp;rsquo;analyse de nos données.&lt;/p&gt;
+&lt;h4 id=&#34;calendrier-1&#34;&gt;Calendrier&lt;/h4&gt;
+&lt;p&gt;Pour les données du calendrier, en fonction du réseau que l&amp;rsquo;on sélectionne, on ira chercher des informations différentes sur le Pod. Pour Google, ce sera les mails. Pour Facebook, les likes et pour Instagram, les commentaires.&lt;/p&gt;
+&lt;p&gt;Il faut transformer ses données pour le calendrier. On utilise nos fonctions :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;mboxToJson(..)&amp;rdquo; : tranforme les emails en Json&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;tranformGoogleMailForCalendar(..)&amp;rdquo; : prend le fichier Json résultat de la fonction précédente (mboXToJson(..)) et fait un affichage que l&amp;rsquo;on définit pour notre calendrier&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;transformCommentDataForCalendar(..)&amp;rdquo; : transforme les commentaires de Facebook ou Instagram sous format Json en notre affichage personnalisé pour le donner au calendrier&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Une fois qu&amp;rsquo;on a les informations sont transformés, on utlise les fonctions displayFileOnCalendar(..) pour faire l&amp;rsquo;affichage.&lt;/p&gt;
+&lt;h4 id=&#34;profil-1&#34;&gt;Profil&lt;/h4&gt;
+&lt;p&gt;Pour l&amp;rsquo;affichage des informations des profils, on utilise notre fonction getFileProfil(..). Il faut d&amp;rsquo;abord recupérer les informations sur le Pod, puis on les traite.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pour instagram, les informations sont fragmentées en 4 fichiers. On récupère aussi la photo de profil sur le Pod.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pour Google, les informations ne sont pas fragmentées mais sont dans 1 seul fichier. La photo de profil est aussi sur un fichier à part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pour Facebook, les informations sont aussi dans 1 seul fichier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Une fois que les informations sont préparés, on les affiche sur la page de Profil.&lt;/p&gt;
+&lt;h4 id=&#34;liste-dactivité&#34;&gt;Liste d&amp;rsquo;activité&lt;/h4&gt;
+&lt;p&gt;Notre fonction GetDevices(..) permet de récupérer, pour Google, 2 fichiers :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;la liste des services utilisés&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;la liste des appareils&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il reste plus qu&amp;rsquo;à afficher les données en tableau pour plus de clareté.&lt;/p&gt;
+&lt;h4 id=&#34;photos-1&#34;&gt;Photos&lt;/h4&gt;
+&lt;p&gt;Pour l&amp;rsquo;affichage des photos, on doit d&amp;rsquo;abord sélectionner le réseau que l&amp;rsquo;on souhaite voir grâce à la liste déroulante. Notre fonction &amp;ldquo;affichagePhotos(..)&amp;rdquo; va prendre les données consernées sur le Pod Solid puis va les afficher en ajoutant les images une à une sur la page.&lt;/p&gt;
+&lt;h4 id=&#34;messages-1&#34;&gt;Messages&lt;/h4&gt;
+&lt;p&gt;Pour l&amp;rsquo;affichage des messages, on doit les récupérer du Pod Solid. Les données sont stockés sous le format Json. L&amp;rsquo;utilisateur peut sélectionner la conversation qu&amp;rsquo;il souhaite voir avec la liste déroulante. Les noms des conversations sont obtenus grâce à la fonction &amp;ldquo;getConversationName(..)&amp;rdquo;.
+Une fois la conversation sélectionné, on affiche les messages avec
+la fonction &amp;ldquo;getFacebookMessage(..)&amp;rdquo;. On extrait l&amp;rsquo;auteur, le message et la date du message. Puis on l&amp;rsquo;affiche avec &amp;ldquo;displayConversation(..)&amp;rdquo;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

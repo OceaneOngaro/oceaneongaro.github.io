@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/en/page/</link>
+        <description>Recent content in Pages on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About me</title>
+        <link>https://example.org/en/page/about/</link>
+        <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/page/about/</guid>
+        <description>&lt;h3 id=&#34;about-me&#34;&gt;About me&lt;/h3&gt;
+&lt;p&gt;My name is Océane Ongaro, and I am currently a Master 2 Software Engineering at the Sciences&amp;rsquo; University in Montpellier (France). I already have a bachelor&amp;rsquo;s degree in Computer Science.&lt;/p&gt;
+&lt;p&gt;My academic background and my projects are the resuls of my passion for the field of Computer Science and numerous technologies. This portefolio is the reflection of my academic journey and my achievements so far.&lt;/p&gt;
+&lt;h3 id=&#34;skills&#34;&gt;Skills&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve mastered multiple technogies including :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust
+&lt;ul&gt;
+&lt;li&gt;crossterm&lt;/li&gt;
+&lt;li&gt;tui-rs&lt;/li&gt;
+&lt;li&gt;std::thread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;C/C++
+&lt;ul&gt;
+&lt;li&gt;CMake/Makefile&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;pthread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;JS&lt;/li&gt;
+&lt;li&gt;HTML, CSS, PHP, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;contact&#34;&gt;Contact&lt;/h3&gt;
+&lt;p&gt;If you are interested by my work, and you wish to know more about my project or that&amp;rsquo;s you consider a collaboration in the Computer Science&amp;rsquo;s field, I will be more than happy to discuss with you. Don&amp;rsquo;t refrain yourself to contact me just to discuss, share ideas or even opportunities.&lt;/p&gt;
+&lt;p&gt;To contact me, you can use my email at &amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;mailto:alyssshep@gmail.com&#34; &gt;alyssshep@gmail.com&lt;/a&gt;&amp;rdquo;. You can also go check my &lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitLab account&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Projects</title>
+        <link>https://example.org/en/page/projets/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/page/projets/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://example.org/en/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/page/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://example.org/en/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -15,6 +15,22 @@
         <description>&lt;img src="https://example.org/categories/arduino/ArduinoCommunityLogo.png" alt="Featured image of post Arduino" /&gt;</description>
         </item>
         <item>
+        <title>Embarqué</title>
+        <link>https://example.org/categories/embarqu%C3%A9/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/categories/embarqu%C3%A9/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Flutter</title>
+        <link>https://example.org/categories/flutter/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/categories/flutter/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>IoT</title>
         <link>https://example.org/categories/iot/</link>
         <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
