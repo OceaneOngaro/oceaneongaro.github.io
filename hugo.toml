@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = false
+title = 'Océane Ongaro'
+theme = ["hugo-theme-stack", "hugo-shortcode-gallery", "wowchemy-hugo-themes"]
+
+[languages]
+
+  [languages.fr]
+    contentDir = 'content/fr'
+    disabled = false
+    languageCode = 'fr-FR'
+    languageDirection = 'ltr'
+    languageName = 'Francais'
+    title = 'PorteFolio Océane Ongaro'
+    weight = 1
+
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'PorteFolio Océane Ongaro'
+    weight = 2
+
+
+[params]
+
+[params.sidebar.avatar]
+enabled = true
+src = "photo2.jpg"
+
+[[params.widgets.homepage]]
+type = "search"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+[params.article]
+toc = true
