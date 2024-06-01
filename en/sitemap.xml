@@ -525,18 +525,6 @@
                 href="https://example.org/en/page/projets/"
                 />
   </url><url>
-    <loc>https://example.org/en/_index.zh-cn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://example.org/_index.zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://example.org/en/_index.zh-cn/"
-                />
-  </url><url>
     <loc>https://example.org/en/page/links/</loc>
     <xhtml:link
                 rel="alternate"
