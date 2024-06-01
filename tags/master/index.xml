@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Master on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/tags/master/</link>
+        <description>Recent content in Master on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/master/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>IoT capteur TTGO T-Display - M2</title>
+        <link>https://example.org/post/iot/</link>
+        <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/post/iot/</guid>
+        <description>&lt;img src="https://example.org/post/iot/background.jpg" alt="Featured image of post IoT capteur TTGO T-Display - M2" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/ttgo-tdisplay&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab TTGO&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/flutter-app-with-ttgo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab Flutter&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description
+&lt;/h2&gt;&lt;p&gt;Ce projet est une application Flutter qui permet de contrôler un microcontrôleur.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Ce projet a pour but d&amp;rsquo;utiliser une application Flutter pour lire des données comme des températures, des niveaux de lumières, d&amp;rsquo;en retirer des statistiques, et de contrôler des LED. Le projet peut être interprété comme le contrôle d&amp;rsquo;une maison connectée. Il est possible de définir un comportement automatique pour que les LED s&amp;rsquo;allument en fonction de seuil de température ou lumière.&lt;/p&gt;
+&lt;h2 id=&#34;fonctionnalités&#34;&gt;Fonctionnalités
+&lt;/h2&gt;
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/jquery-3.7.0.min.js&#34;&gt;&lt;/script&gt;
+	
+	
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-bd619028769b5b1b48b5eeb6c46d717d-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-bd619028769b5b1b48b5eeb6c46d717d-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-bd619028769b5b1b48b5eeb6c46d717d-0&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;L&amp;rsquo;application flutter est disponible pour les systèmes Android. L&amp;rsquo;application est divisé en plusieurs pages principales :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accueil&lt;/li&gt;
+&lt;li&gt;Profile
+&lt;ul&gt;
+&lt;li&gt;voir les informations personnels&lt;/li&gt;
+&lt;li&gt;modifier ses informations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Température
+&lt;ul&gt;
+&lt;li&gt;voir les statistiques des températures&lt;/li&gt;
+&lt;li&gt;voir la température actuelle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Luminosité
+&lt;ul&gt;
+&lt;li&gt;voir le niveau de luminosité et son ambiance (Lumineux, sombre, etc)&lt;/li&gt;
+&lt;li&gt;voir les statistiques sur les niveaux de luminosité&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Contrôle LED
+&lt;ul&gt;
+&lt;li&gt;éteindre toutes les LED&lt;/li&gt;
+&lt;li&gt;accéder au mode automatique et ses réglages&lt;/li&gt;
+&lt;li&gt;activé le mode auto&lt;/li&gt;
+&lt;li&gt;régler la vitesse, le statut des LED&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(Dé)connexion&lt;/li&gt;
+&lt;li&gt;connexion Bluetooth du WiFi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les modifications des données sont transmises au service concerné. Si l&amp;rsquo;on fait une modification sur les informations personnelles, la base de données que j&amp;rsquo;héberge sur mon raspberry pi sera notifié. Si les modifications concernent le comportement des LED, le microcontrôleur fera les modifications nécessaires. Des graphiques sont fait à partir des données contenues dans la base de données. Pour accéder à la base de données, il faut avoir un accès internet.&lt;/p&gt;
+&lt;h2 id=&#34;démo&#34;&gt;Démo
+&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;demo_appli.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;demo_appli.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;utilisation-du-projet&#34;&gt;Utilisation du projet
+&lt;/h2&gt;&lt;h3 id=&#34;application-flutter&#34;&gt;Application Flutter
+&lt;/h3&gt;&lt;p&gt;Le code source est disponible sur GitLab (&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/flutter-app-with-ttgo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab Flutter&lt;/a&gt;), il faut importer le projet sur Android Studio et soit utilisé une simulation d&amp;rsquo;Android ou d&amp;rsquo;utiliser tout simplement son téléphone Android. L&amp;rsquo;application utilise les dépendances suivantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;http : pour faire les requêtes à l’ESP&lt;/li&gt;
+&lt;li&gt;mysql client : pour communiquer avec la base de données MySQL déployée avec Docker sur un RaspBerry Pi&lt;/li&gt;
+&lt;li&gt;fl chart : pour tracer les différents graphes&lt;/li&gt;
+&lt;li&gt;permission handler : pour les permissions avec le bluetooth&lt;/li&gt;
+&lt;li&gt;shared preferences : pour ajouter des données persistantes dans les préférences&lt;/li&gt;
+&lt;li&gt;flutter blue : pour utiliser le bluetooth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ttgo&#34;&gt;TTGO
+&lt;/h3&gt;&lt;p&gt;Pour l&amp;rsquo;ESP32 TTGO T-Display, il faut refaire le montage selon le schéma que j&amp;rsquo;ai fourni.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.org/solid_logo.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Schéma&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Il est nécessaire de télécharger plusieurs bibliothèques :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TFT_eSPI : permet d&amp;rsquo;utiliser l&amp;rsquo;affichage de l&amp;rsquo;ESP&lt;/li&gt;
+&lt;li&gt;WiFi : pour utiliser le WiFi&lt;/li&gt;
+&lt;li&gt;WebServer : pour faire des requêtes HTTP&lt;/li&gt;
+&lt;li&gt;ArduinoJson : pour passer des objets Json par l&amp;rsquo;API REST&lt;/li&gt;
+&lt;li&gt;Preferences : pour conserver des données&lt;/li&gt;
+&lt;li&gt;Arduino ESP32 OTA : permet de faire des mises à jour &amp;ldquo;Over The Air&amp;rdquo; sans avoir besoin de connecter l&amp;rsquo;ESP32 à un ordinateur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il ne reste plus qu&amp;rsquo;à téléverser le code source disponible (&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/ttgo-tdisplay&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab TTGO&lt;/a&gt;) avec Arduino IDE avec les paramètres suivants :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.org/solid_logo.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Paramètre Arduino IDE&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lancement&#34;&gt;Lancement
+&lt;/h3&gt;&lt;p&gt;Il faut juste brancher notre microntrôleur à une source d&amp;rsquo;alimentation avec une connection internet disponible, pareil pour notre appareil Android.&lt;/p&gt;
+&lt;h2 id=&#34;implémentation&#34;&gt;Implémentation
+&lt;/h2&gt;&lt;h3 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges
+&lt;/h3&gt;&lt;p&gt;L&amp;rsquo;objectif du projet est d&amp;rsquo;implémenter une API RESTful sur un capteur TTGO T-Display. L&amp;rsquo;API doit permettre de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lister les capteurs (température/lumière) connectés à l&amp;rsquo;ESP32&lt;/li&gt;
+&lt;li&gt;de récupérer les informations associées à ce ou ces capteurs&lt;/li&gt;
+&lt;li&gt;de contrôler l&amp;rsquo;allumage, l&amp;rsquo;extinction, le changement d&amp;rsquo;état d&amp;rsquo;une LED connectée à l&amp;rsquo;ESP32&lt;/li&gt;
+&lt;li&gt;de définir un seuil permettant d&amp;rsquo;allumer/éteindre la LED en fonction de la valeur captée par un des capteurs connecté à l&amp;rsquo;ESP32&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;rsquo;utilisation de l&amp;rsquo;écran intégré ainsi que des boutons pré-configurés sera un plus très apprécié dans l&amp;rsquo;évaluation de votre montage.&lt;/p&gt;
+&lt;p&gt;Pour l&amp;rsquo;application Flutter, l&amp;rsquo;objectif est de développer une interface utilisateur pour intreragir sur l&amp;rsquo;API RESTful pour le projet du capteur TTGO T-Display. Cette interface sert de pont entre l&amp;rsquo;utilisateur et le capteur permettant une interraction visuelle et intuitive avec les données et commandes du capteur.&lt;/p&gt;
+&lt;p&gt;Les fonctionnalités requises sont les suivantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Affichage de données des capteurs : l&amp;rsquo;application doit pouvoir lister et afficher les données des capteurs récupérées via l&amp;rsquo;API RESTful, en différents formats (textuel, graphes, etc)&lt;/li&gt;
+&lt;li&gt;Contrôle de la LED : intégrer des commandes dans l&amp;rsquo;application pour contrôler l&amp;rsquo;allumage, l&amp;rsquo;extinction et le changement de la LED sur l&amp;rsquo;ESP32&lt;/li&gt;
+&lt;li&gt;Interface de réglage de seuil : créer une interface permettant à l&amp;rsquo;utilisateur de définir un seuil pour la (dés)activation de la LED basé sur les données des capteurs&lt;/li&gt;
+&lt;li&gt;Interface de statistiques : créer une interface permettant à l&amp;rsquo;utilisateur de visualiser l&amp;rsquo;usage et la localisation&lt;/li&gt;
+&lt;li&gt;Stockage des données : veillez à ce que les données soit persistées dans le backend au delà de leur streaming en temps réel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;arduino-ttgo-t-display&#34;&gt;Arduino TTGO T-Display
+&lt;/h3&gt;&lt;p&gt;Le but d&amp;rsquo;une API Rest est de faire des requête HTTP, Il faut que notre ESP32 soit capable de gérer les connexions et les requêtes qu’on va
+lui envoyer. On doit ajouter la bibliothèque WebServer et de prendre le port 80 (le port HTTP). Maintenant, il faut que les requêtes soient traitées : commencons par GET. Notre projet doit envoyé les données de température, de lumière, les informations sur les
+LED et les param`etres du mode automatique. Cette requête suivra cette forme : ”http://adresse/NOM DONNEE”. Dans la fonction server road(), on listera les chemins utilisés et les fonctions rattachés.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.org/roads.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;server_road&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Chaque chemin aura une fonction de rattachée :
+• /temperature : récupère la température avec la fonction get temperature()
+• /light : r´ecupère la valeur de lumière avec la fonction get light()
+• /ledA, /ledB, /led : récupèrent les valeurs sur les LED avec les fonctions get ledA(), get ledB() et get led()
+• /ledAutoParams : récupère les données du mode automatique avec la fonction get auto()&lt;/p&gt;
+&lt;p&gt;Les fonctions de récupération de données (GET) vont prendre la valeur du capteur ou de la led et les formater en JSON avec la bibliothèque ArduinoJson. Pour être sûr que l’objet JSON est bien vide avant d’écrire, on retire tout ce qu’il y a dedans avec la fonction clear(). Maintenant, on peut écrire ce qu’on veut envoyer comme donnée. Nous avons choisi d’envoyer le type (lumière, température, led, &amp;hellip;) et sa valeur. La température a déjà été converti en degrés Celsius. Il ne reste plus qu’à envoyer avec la fonction send() en spécifiant 200 (code du succès de l’envoi).&lt;/p&gt;
+&lt;p&gt;La récupération de la température est un peu particulière car il faut appliquer une formule. Celle que j&amp;rsquo;ai utilisé est celle de Steinhart-Hart qui consiste à prendre la valeur de résistance d&amp;rsquo;appliquer la formule suivante :
+T = A + B ∗ log(resistance) + C ∗ pow(log(resistance), 3) avec A,B,C des coefficients
+le résultat sera en Kelvin, il ne restera plus qu&amp;rsquo;à convertir en degrés Celsius. Pour obtenir les coefficients, vu que je n&amp;rsquo;avais pas le manuel utilisateur du capteur, j&amp;rsquo;ai dû les calculer. J&amp;rsquo;ai récupérer 3 valeurs de résistances en changeant la température : j&amp;rsquo;ai utilisé un verre remplie d&amp;rsquo;eau chaude, froide et j&amp;rsquo;ai le capteur en contact avec le verre en ayant au préalable mesuré sa température.&lt;/p&gt;
+&lt;p&gt;L’utilisateur peut modifier l’état de la LED, les valeurs de seuil ou encore passer en mode automatique ou manuel, il faut que le serveur soit capable de gérer les requêtes POST. Il y a une différence de traitements entre les paramètres et le seuil pour le mode auto. Les paramètres sont les comportements des led : la vitesse de clignotement, allumé/éteint, etc. Le seuil sera la valeur de température ou la valeur de lumière que l’utilisateur aura décidé.&lt;/p&gt;
+&lt;p&gt;L’ESP a un écran TFT, donc nous avons eu l’idée de faire un affichage des relevés des capteurs mais aussi des connexions. La première étape au démarrage du TTGO est la connexion Wifi ou la connexion bluetooth : un affichage dira qu’il attend une connexion. Avoir le mot de passe et le ssid d’un réseau wifi écrit en brut n’est vraiment pas sécurisé ni modulable : nous avons donc mis en place une configuration avec le BLE (Bluetooth Low Energy).&lt;/p&gt;
+&lt;p&gt;Avoir le mot de passe et le ssid d’un réseau wifi écrit en brut n’est vraiment pas sécurisé ni modulable : nous avons donc mis en place une configuration avec le BLE (Bluetooth Low Energy). Le BLE est composé de services et de caractéristiques en interne. Il faut donc commencer par les définir avec des identifiants uniques (SERVICE UUID et CHARACTERISTIC UUID). Maintenant, il faut que l’ESP lance l’écoute et l’attente d’évènements : notre fonction connection bluetooth() permet cette configuration. Le nom de l&amp;rsquo;appareil est défini à ESP32 pour facilier la connexion. Il ne reste plus qu’à lancer le serveur BLE (la fonction start()) et de le mettre en écoute (fonction getAdvertising()).&lt;/p&gt;
+&lt;p&gt;Il faut maintenant que le caractéristique est une fonction particulière à exécuter. Nous avons mis comme propriété sur le caractéristique l’écriture donc nous devons définir son comportement.&lt;/p&gt;
+&lt;p&gt;La première chose à faire est de récupérer la valeur que l’utilisateur aura envoyé donc le ssid et le mot de passe du wifi. Nous récupérons avec la fonction getValue() sur l’instance du caractéristique puis nous la convertissons en chaîıne de caractères. Nous savons que la valeur d’envoie sera séparée par une virgule donc nous faisons indexOf(’,’) pour séparer les deux mots. Il ne reste plus qu’à donner ces valeurs à la fonction connection wifi() et de vérifier si on peut se connecter ou non, la réponse
+sera un booléen. Si la connexion est bonne, on aura true sinon false. Le serveur sera toujours en attente de modification donc si l’utilisateur change de réseau, il pourra le changer.&lt;/p&gt;
+&lt;p&gt;Pour pouvoir faire les mises à jour Over The Air, il faut d’abord installer la bibliothèque Arduino ESP32 OTA, cette bibliothèque est en beta. On doit définir les différentes étapes. D’abord, il faut définir le comportement en fonction de l’état : onStart(), onEnd, onProgress() et onError() :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;onStart(), on regarde qu’est-ce qui est concerné par la mise à jour les fichiers (U SPIFFS) ou le programme lui-même (U FLASH).&lt;/li&gt;
+&lt;li&gt;onEnd(), On fait juste une impression sur le monitor&lt;/li&gt;
+&lt;li&gt;onProgress(), on fait un affichage pour connaître le pourcentage de progression de l’envoi&lt;/li&gt;
+&lt;li&gt;onError(), renvoie les erreurs pendant la mise à jour&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lorsque le TTGO redémarre, éteint ou est mis à jour le programme, toutes les données sont perdues. Ceci n’est pas préférable. Nous avons ainsi mis en place les préférences (qui est le remplacement de EEPROM). Nous avons opté pour cette solution car
+ce sont des petites données qui sont stockées mais l’utilisation de LitteFS aurait pu être possible. Ces données seront stockées dans une partie de sa mémoire non volatile interne (NVS). Nous avons besoin d’ajouter la bibliothèque Preferences.&lt;/p&gt;
+&lt;h3 id=&#34;base-de-données-mysql---docker&#34;&gt;Base de données MySQL - Docker
+&lt;/h3&gt;&lt;p&gt;L’espace de données sur le TTGO est très restreint donc pour conserver les données, il faut trouver une alternative. La meilleure solution que nous avons trouvé est de déployer une base de données MySQL dans un conteneur Docker hébergé sur un Raspberry pi 4. Un script fait des requêtes régulière pour récupérer les données du capteur pour les mettre dans la base de données. Nous n’avons pas mis un accès directement à la base de données pour des questions de sécurités.&lt;/p&gt;
+&lt;p&gt;La base de données est composée de 3 tables :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User : qui regroupe toutes les informations sur un utilisateur lors de la création d’un compte&lt;/li&gt;
+&lt;li&gt;Temperature : contient les données récupérées du thermistor à intervalle régulier&lt;/li&gt;
+&lt;li&gt;Light : contient les données récupérées du photoresistor à intervalle régulier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour pouvoir y accéder depuis l’extérieur et pas en local, nous avons configuré un ddns pour avoir un nom de domaine. De plus, il est préférable d’avoir un nom de domaine plutôt qu’une IP pour des raisons de sécurités et aussi parce que les IP des box changent et ainsi causer des problèmes de connexion à cette base de données si l’IP n’est plus la bonne. Il ne faut pas uniquement un DNS mais un DDNS qui est l’abréviation de Dynamic Domain Name System ce qui implique que l’IP peut changer régulièrement mais que le nom de domaine sera toujours valide. Pour faire ceci, nous avons utilisé No-Ip.&lt;/p&gt;
+&lt;h3 id=&#34;application-flutter-1&#34;&gt;Application Flutter
+&lt;/h3&gt;&lt;p&gt;Nous avons créé tous les chemins possibles pour faciliter la navigation en les déclarant dans le main de l’application. De plus, en fonction de si l’utilisateur est connecté ou non, la page de début sera l’accueil ou la page de création de compte.
+Nous avons décidé de faire une application dans le style Lofi donc nous avons adapté le fond d’écran, les icônes et les couleurs de l’application. Tous vient des sites Freepik ou encore Flaticon.&lt;/p&gt;
+&lt;h4 id=&#34;création-de-compte&#34;&gt;Création de compte
+&lt;/h4&gt;&lt;p&gt;Avant tout, il faut que l’utilisateur se crée un compte. Tous les champs doivent être remplis sinon l’utilisateur ne pourra pas créer de compte.Si l’utilisateur a déjà un compte, il pourra toujours se connecter. L’utilisateur devra obligatoirement, lors de la création, remplir tous les champs et le même mot de passe pour passer la vérification. Lorsque tous les champs sont remplis par l’utilisateur, il ne reste plus qu’à rentrer les données dans la base de données. Si l’utilisateur existe, un message s’affiche pour le signaler à l’utilisateur sinon le compte sera créé avec succès. Un contrôleur sur chaque champ a été mis en place pour pouvoir récupérer les différentes données ainsi qu’une clef pour le formulaire. ’utilisateur sera ensuite redirigé vers la configuration de l’ESP avec le bluetooth.&lt;/p&gt;
+&lt;h4 id=&#34;connexion&#34;&gt;Connexion
+&lt;/h4&gt;&lt;p&gt;Si l’utilisateur a déjà un compte, il peut se connecter et avoir le choix de faire la configuration en laissant le bouton sur ”Faire la première connexion” qui le redirigera vers la connexion bluetooth sinon il ira sur l’écran d’accueil. Pour la connexion, l’utilisateur doit donner un email et son mot de passe qui seront vérifiés. Si l’utilisateur se trompe ou que son compte n’existe pas, il y aura alors un message d’informations.&lt;/p&gt;
+&lt;h4 id=&#34;bluetooth&#34;&gt;Bluetooth
+&lt;/h4&gt;&lt;p&gt;Si l’utilisateur a fait une inscription ou se connecter pour reconfigurer les paramètres WiFi alors il arrivera sur cette page. Si l’utilisateur n’a pas le bluetooth d’activer sur son appareil, il aura cette page. Une fois que le Bluetooth est actif ainsi que la localisation (ce qui est n´ecessaire pour pouvoir faire les connexions BLE (Bluetooth Low Energy)) lorsqu’on appuie sur le bouton de recherche : on demande à l’utilisateur si l’application peut utiliser la localisation.&lt;/p&gt;
+&lt;p&gt;Si l’appareil est détectable alors lors de la recherche il apparaîtra. Dans notre projet, sur l’ESP32, nous avons donné le nom de l’appareil ”Esp32”. Lorsqu’on appuie sur le bouton de recherche situé en bas à droite de l’écran quand il effectue une recherche qui dure quelques secondes son icône change d’une loupe à un carré.&lt;/p&gt;
+&lt;p&gt;Quand l’application a pu faire la connexion à l’appareil alors on peut lister les services nécessaires. Le seul service d’actif sur l’ESP32 est celui de la connexion au WiFi. La liste des services ne s’affiche uniquement si on appuie sur le bouton Services. Si l’utilisateur ne veut pas se connecter à ce dernier alors il peut toujours se déconnecter en appuyant sur le bouton en haut à droite de la page.&lt;/p&gt;
+&lt;p&gt;Maintenant que l’utilisateur est connecté, il peut accéder aux services et aux caractéristiques. Dans notre projet, nous avons mis en place une seul service et caractéristique, pour l’utiliser, il faut appuyer sur le bouton ”Connexion au WiFi” qui affichera une boîte de dialogue AlertDialog demandant le nom et le mot de passe. Si l’utilisateur se trompe sur le mot de passe ou le nom, le capteur enverra un échec de connexion et on pourra recommencer à donner les bonnes informations. Si la connexion au WiFi réussi alors l’utilisateur sera redirigé vers l’accueil.&lt;/p&gt;
+&lt;p&gt;Nous avons eu besoin d’utiliser la bibliothèque flutter blue. La première chose à faire pour faire des connexions à des appareils est de lister ceux qui sont disponibles. Si les appareils n’ont pas de nom on les listera avec le nom No Names sinon on affichera leur nom comme pour notre Esp32.&lt;/p&gt;
+&lt;p&gt;Pour chaque appareil, si on a réussi à se connecter, on doit lister ses services ainsi que les caractéristiques. Chaque service contient des caractéristiques. Ainsi dès que l’utilisateur appuie sur Services, on va récupérer les services de l’appareil qui seront donner à buildServiceTiles qui pour chaque service va lister ses caractéristiques. Dans notre cas, nous avons uniquement 1 seul service et le caractéristique qui permet de faire la connexion WiFi est le dernier ainsi nous affichons que le dernier.&lt;/p&gt;
+&lt;p&gt;Quand l’utilisateur donne ses informations pour la connexion au WiFi une boîte de dialogue s’affiche. Nous avons mis des Controller pour récupérer les informations entrées. Une fois que les données sont récupérées, elles sont envoyées au microcontrolleur et l’application attendra une réponse d’échec ou de réussite de connexion. En fonction de la réponse, l’utilisateur devra soit entrer à nouveau les informations du WiFi sinon il sera redirigé vers l’accueil.&lt;/p&gt;
+&lt;h4 id=&#34;accueil&#34;&gt;Accueil
+&lt;/h4&gt;&lt;p&gt;Une fois que l’utilisateur s’est inscrit ou connecté, il sera sur la page d’accueil qui permet de naviguer vers les différentes fonctionnalités de l’application. Un tiroir permet d’accéder à toutes les pages disponibles. Pour que le menu soit cohérent, il a fallu adapter son apparence en modifiant la couleur par du deeporance[100] et des icônes personnalisés pris de la plateforme Flaticon.&lt;/p&gt;
+&lt;p&gt;Le menu est divisé en 3 parties : une partie informations personnelles, une partie microcontrôleur et la dernière partie pour la déconnexion. Le menu est une liste de ListTile contenant l’icône, le texte et son comportement (la navigation qui utilisera le nom vu que nous les avons déclaré dans le main. Pour la d´econnexion, il s’agit d’effacer le jeton et l’email de l’utilisateur qui sont garder dans les préférences et de rediriger vers la page de connexion.&lt;/p&gt;
+&lt;h4 id=&#34;profile&#34;&gt;Profile
+&lt;/h4&gt;&lt;p&gt;L’utilisateur peut consulter ses informations personnelles ou les modifier. Pour les
+modifier, il devra appuyer sur le bouton Engrenage situé en bas à droite de la page Profile. Lorsque l’utilisateur modifie son profil, il aura un message comme quoi l’action a bien été effectué.&lt;/p&gt;
+&lt;p&gt;Pour implémenter cette partie, d’abord il faut faire les connections et la requête de recupération des données de l’utilisateur. Lors de la connexion ou de l’inscription, un jeton est créé contenant le hashage du mot de passe de l’utilisateur et de son email, une variable conserve aussi l’email.&lt;/p&gt;
+&lt;p&gt;Pour la modification du profile, une requête de mise à jour doit être faite. Il est possible de modifier l’adresse email, cependant il faudra modifier celle qui est en mémoire dans l’application ainsi que de conserver une copie de l’ancienne adresse pour faire la requête.
+Une modification des préférences est aussi faite si l’email a été modifié. Les préférences sont utilisés pour conserver les donn´ees utile au fonctionnement lorsque l’application est arrêtée.&lt;/p&gt;
+&lt;h4 id=&#34;température&#34;&gt;Température
+&lt;/h4&gt;&lt;p&gt;L’utilisateur peut consulter les relevés par le thermistor. Sur la page de température, on peut voir la température qui est relevé toutes les 3 secondes. Le diagramme circulaire permet de faire les pourcentages sur le mois dernier en fonction des températures. Sur la page du graphique à ligne brisée relie toutes les valeurs que l’on a en base de données entre elle avec sur l’axe des abscisses la date et sur l’axe des ordonnées les températures en degré Celsius.&lt;/p&gt;
+&lt;p&gt;Le logo utilisé a été téléchargé sur flavicon. Pour récupérer les données du capteur à intervalle régulier, il a fallu créer une fonction que l’on appelle au bout d’un certains temps. Nous avons créer la fonction getData qui fait une requête HTTP à notre microcontrôleur. La route pour effectuer cette requête est http://192.168.1.54/temperature. L’IP est visible mais c’est une adresse que nous avons fixé sur notre ESP32. Une fois la valeur récupérée, il faut lors de l’affichage restreindre la valeur à une seul décimale en utilisant la méthode toStringAsFixed.&lt;/p&gt;
+&lt;p&gt;Pour l’affichage du diagramme circulaire, qui n’est calculé qu’une seule fois vu que les valeurs du mois dernier ne bouge pas, on récupère les données de la table Temperature.&lt;/p&gt;
+&lt;p&gt;Il ne reste plus qu’à trier les températures par unité. Par exemple, si nous avons des valeurs comme 17.8, 17.2, elles seront comptées pour des températures à 17. La fonction qui nous permet de faire ce tri est generateSections. Chaque section du diagramme aura une couleur définie aléatoirement avec la fonction getRandomColor.&lt;/p&gt;
+&lt;p&gt;En appuyant le bouton du graphe, situé en bas à droite de la page de Température, l’utilisateur est redirigé vers une autre page contenant un graphe à ligne brisée. Pour faire ce graphe, il a fallu d’abord récupéré les valeurs stockées dans la base de données dans la table Temperature, les traiter pour leur graphe et les mettre dans une liste de FlSpot. Il est possible de cliquer sur chaque point pour avoir les valeurs de températures.&lt;/p&gt;
+&lt;h4 id=&#34;lumière&#34;&gt;Lumière
+&lt;/h4&gt;&lt;p&gt;Sur cette page, l’utilisateur peut consulter les valeurs récupérées sur le photoresistor de notre microcontrôleur. Il y a aussi un diagramme circulaires représentant les pourcentages des types d’ambiances sur le mois dernier. Le bouton graphe, situé en bas à gauche de la page renvoie vers le graphe des températures.&lt;/p&gt;
+&lt;p&gt;Pour implémenter la mise en place de cette page, il a fallu faire une requête HTTP pour avoir la valeur de lumière que l’on récupère toutes les 3 secondes dans notre cas. Sur la valeur que l’on récupère, on lui attribue un style d’ambiance qui sera Sombre, Faible, Modéré, Lumineux ou Très lumineux.&lt;/p&gt;
+&lt;p&gt;Pour le diagramme circulaire, il a fallu récupéré toutes les données dans la table Light. Une fois que les valeurs sont récupérées, il faut créer les sections ce que l’on fait dans la fonction generateSections. D’abord, on crée un Map avec nos 5 catégories (de Sombre à Très lumineux et pour chaque valeur que l’on aura récupéré, on vérifie dans quelle catégorie elle appartient et on incrémente la valeur du Map. Il ne reste plus qu’à faire les pourcentages et faire les sections du diagramme.&lt;/p&gt;
+&lt;h4 id=&#34;contrôle-des-led&#34;&gt;Contrôle des LED
+&lt;/h4&gt;&lt;p&gt;L’utilisateur peut contrôler la vitesse, et si la LED est allumée ou non. Il suffit juste d’appuyer sur le plus ou le moins pour r´eduire la vitesse ou l’augmenter. Des boutons Switch permet d’allumer ou d’éteindre la LED.&lt;/p&gt;
+&lt;p&gt;Il faut récupérer les données des LED et de si le mode automatique est actif avec des requêtes HTTP, les fonctions qui permettent ceci sont getData et getAuto qui sont appelés toutes les 5 secondes.&lt;/p&gt;
+&lt;p&gt;Une fois que nous avons récupéré les données, il ne reste plus qu’à lier les variables avec le comportement des boutons. Si le résultat de getAuto est ”on” alors le bouton sera actif. On aura la même logique pour savoir si la LED est allumée avec les résultats de getData, on affichera la vitesse de clignotement aussi. La vitesse de clignotement peut être modifiée en appuyant sur le plus et le moins. L’utilisateur peut maintenir le bouton car le comportement est géré, du moment que le bouton est maintenu la valeur incrémentera (ou décrémentera). Il faut appeler la fonction updateLedAState (pour la LED A rouge) ou updateLedBState (pour la LED B verte).&lt;/p&gt;
+&lt;h4 id=&#34;réglages-des-led&#34;&gt;Réglages des LED
+&lt;/h4&gt;&lt;p&gt;L’utilisateur peut régler le mode automatique en donnant le comportement qu’il attend (la vitesse de clignotement et si la LED est allumée/éteinte) et le seuil sur lequel il est sensé s’arrêter. La LED A - rouge sera allumé jusqu’à ce que le seuil de température soit atteint sinon elle s’éteindra. Même chose pour la lumière et la LED B - verte. Le bouton situé en haut nommé LED permet d’éteindre toutes les LED. Le bouton Auto permet de mettre le mode automatique sur les 2 LED ou sur aucune.&lt;/p&gt;
+&lt;p&gt;Toutes les informations sont récupérés avec la fonction getDataAuto et sont récupérés toutes les 5 secondes. La quantité de contrôle a nécessite que la page soit scrollable. Plusieurs fonctions permettent de mettre à jour les valeurs du mode automatique.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;updateLedAutoT : permet d’activer ou désactiver le mode automatique de la LED température (LED rouge)&lt;/li&gt;
+&lt;li&gt;updateLedAutoL : permet d’activer ou désactiver le mode automatique de la LED de lumière (LED verte)&lt;/li&gt;
+&lt;li&gt;updateLedAllAuto : permet de mettre à jour les deux modes automatiques&lt;/li&gt;
+&lt;li&gt;updateLedATemp : permet de mettre à jour le comportement de la LED Rouge.&lt;/li&gt;
+&lt;li&gt;updateLedBLight : permet de mettre à jour le comportement de la LED verte&lt;/li&gt;
+&lt;li&gt;updateSeuilTemp : permet de mettre à jour le seuil de température&lt;/li&gt;
+&lt;li&gt;updateSeuilLight : permet de mettre à jour le seuil de lumière. Toutes ces fonctions utilisent des requêtes HTTP pour donner les informations ou récupérer sur l’ESP 32.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

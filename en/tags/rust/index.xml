@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Rust on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/en/tags/rust/</link>
+        <description>Recent content in Rust on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/en/tags/rust/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Exploring the Bitcoin&#39;s blockchain with Rust - L3</title>
+        <link>https://example.org/en/post/blockchain/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/en/post/blockchain/</guid>
+        <description>&lt;img src="https://example.org/en/post/blockchain/intro.png" alt="Featured image of post Exploring the Bitcoin&#39;s blockchain with Rust - L3" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/blockchain-rust.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description
+&lt;/h2&gt;&lt;p&gt;This porject is a text interface that calculate and display statistics (number of transactions,&amp;hellip;) extracted from the Bitcoin&amp;rsquo;s blockchain with Rust.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;This project offer the discovery of two univers that&amp;rsquo;s just emerged : Bitcoin&amp;rsquo;s blockchain and Rust. The topic was to manipulate the registers of this cryptocurrencies using a language we didn´t know a thing about. This project was a collaboration with some Polytech&amp;rsquo;s teachers from Montpellier.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features
+&lt;/h2&gt;
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/jquery-3.7.0.min.js&#34;&gt;&lt;/script&gt;
+	
+	
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/1.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;373&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APN2gQHlR/3wKaURDkZGfQAVfOmaq6j/AECYjt&amp;#43;7JqP&amp;#43;xtTzn&amp;#43;z5/wDv21K5n7Wn/MvvKcqLn5ssfcU1dqn5Rj6VffR9UY/8eE4/7ZmmHRtSUbmsZwByT5ZouHtaf8y&amp;#43;8iGo3wGBeXH/AH9b/Gj&amp;#43;0b7/AJ/bj/v63&amp;#43;NV6KZXJHsWP7Rvv&amp;#43;f24/7&amp;#43;t/jQdRviCDeTkHt5p/xqvRQHJHsf/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/1_hu12b39e93e8dc3f4f47ee37985a6ef958_60016_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/2.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;373&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APNVjSRyAoz/ALgoKBH2j5SfQAUsS75OEBx74pZF2yj5AMnI5zQAyRVz8x3H3FNXaD8ox9BTpeo5/WmDqKAJNuCSCR9KAMsMknHrSnrQPvD60AI3z4J/nSBBkdaWlHWgD//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/2_hu35becbd037b44ed1a76d3510a21511ba_88212_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/3.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;366&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APOJHjDkeX0&amp;#43;g/pTPNXOQhBHcEf4U2X/AFhptADzIpOSrE/Uf4U&amp;#43;No89WU9O3&amp;#43;FQ05R84&amp;#43;tACmQk5Kr&amp;#43;VJ5n&amp;#43;yv5U0UHrQA8yc/dUfhQJSDnap/CmUlAH//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/3_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/4.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;376&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APM2Ee4/KP8AvgUg2qcqMfQAUP8AfNJQArbXOWyT70qBAePl/Cm0DqKAJSBmkwPSlPWkoAVgAxHoaFALClb75&amp;#43;tC/eFAH//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/4_hu9f591a198f136911ff3e83b657c55e12_30862_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/5.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;377&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APOTar12r0z90VFtRCdpwfYYo8x/&amp;#43;ehx9TTSS3Vs/WgAbaxy2T9aF2qflBH0pMe4pRgHrQAlFFFABRRRQB//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/5_hu74b190068d98cfe6e3fa1b7609d4c7c7_44240_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-5672bf8d53895dd4345d19f999b70e64-0&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;This graphic interface is accessible from a UNIX terminal, Windows or even a IDE terminal. The interface is responsive : it adapts when the user change the window dimension. It is divided into 5 tabs :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;the Overview tab :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;presents briefly the software&lt;/li&gt;
+&lt;li&gt;reminds of the commands that can be done to launch the program differenlty&lt;/li&gt;
+&lt;li&gt;displays the key to access the &amp;ldquo;help me&amp;rdquo; tab for more intel on how to browse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the Block tab :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;display the general information of a block :
+&lt;ul&gt;
+&lt;li&gt;its size, number of transactions, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;version, Merkle&amp;rsquo;s root, timestamp, bits, nonce&lt;/li&gt;
+&lt;li&gt;Some statistics (exchange&amp;rsquo;s volume, average and median, the first and thrid quartile)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the Transaction tab displays a curve of the number of transactions per block&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the BTC tab displays a curve of the biggest amount of BTC per block&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the help me tab explains how to use the application : how to switch tabs, and to use the others features we&amp;rsquo;ve got (next registers,&amp;hellip;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&amp;rsquo;ve added a progress bar on the data&amp;rsquo;s export, the display of the terminal and even for the parser with the name of the registers it&amp;rsquo;s working on. For the export of the data, the user can choose between json, txt or cancel the export.&lt;/p&gt;
+&lt;p&gt;For the curve, we&amp;rsquo;ve used a point cloud. This one allows us to see the results of each block at the same time. On the x-axis, we&amp;rsquo;ve got the block&amp;rsquo;s number and on the y-axis, the number of blocks. This allowed us to have a greater recoil and impact on all the blocks.&lt;/p&gt;
+&lt;h2 id=&#34;démo&#34;&gt;Démo
+&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;demo.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;demo.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;how-to-use&#34;&gt;How to use
+&lt;/h2&gt;&lt;h3 id=&#34;crates&#34;&gt;Crates
+&lt;/h3&gt;&lt;p&gt;We&amp;rsquo;ve used the following crates :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;chrono :  a library for the time&amp;rsquo;s management who allows to interpret Unix timestamp contained inside a block&amp;rsquo;s header.&lt;/li&gt;
+&lt;li&gt;crossterm : a library to handle a terminal&lt;/li&gt;
+&lt;li&gt;hex-string : a struct that convert all vectors of integer into a heximal string. Really useful because the Bitcoin&amp;rsquo;s blockchain use a lot of base 16 for the key&amp;rsquo;s editing (private and public keys, signature and hash)&lt;/li&gt;
+&lt;li&gt;sha2 : implement the hash function of the SHA-2 family. We use the SHA-256 for identifing blocks or transactions&lt;/li&gt;
+&lt;li&gt;tui-rs : a library for building interfaces et boards inside a terminal, it&amp;rsquo;s divided and handled with some widgets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installations&#34;&gt;Installations
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;cmake&lt;/li&gt;
+&lt;li&gt;pkg-config&lt;/li&gt;
+&lt;li&gt;libssl&lt;/li&gt;
+&lt;li&gt;libfreetype6-dev (Debian)&lt;/li&gt;
+&lt;li&gt;libexpat1-dev (Debian) / libexpat&lt;/li&gt;
+&lt;li&gt;libxcb-composite0-dev (Debian) / libxcb (Arch Linux)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;debian&#34;&gt;Debian
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install cmake
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install pkg&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config libasound2&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libssl&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev cmake libfreetype6&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libexpat1&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libxcb&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;composite0&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;arch-linux&#34;&gt;Arch Linux
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;S cmake pkg&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config libexpat libxcb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;launch&#34;&gt;Launch
+&lt;/h3&gt;&lt;p&gt;The file blk.dat had to be placed inside the ./ins folder and the export are placed inside the ./outs folder if you use the default mode of our application.
+The user can change the lauching parameters and can change the folder of import and export.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release i .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_à_lire&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release o .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_où_exporter&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release io .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_à_lire&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_où_exporter&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;implements&#34;&gt;Implements
+&lt;/h2&gt;&lt;h3 id=&#34;specifications&#34;&gt;Specifications
+&lt;/h3&gt;&lt;p&gt;The features that&amp;rsquo;s we implement are split into 3 categories :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Deserialize the data inside the blk.dat file&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;read the metadata inside the header (version, hash of the previous block,&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;read the transactions&lt;/li&gt;
+&lt;li&gt;rebuild the Merkle&amp;rsquo;s tree&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze the data :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;count the number of transactions inside a block&lt;/li&gt;
+&lt;li&gt;extract the adresses&lt;/li&gt;
+&lt;li&gt;search the biggest amout of Bitcoin, calculate the average amout of Bitcoin inside a file,&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Export the data throught the terminal display or inside a file&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;approach&#34;&gt;Approach
+&lt;/h3&gt;&lt;p&gt;To realize our project, we&amp;rsquo;ve first implemented our parsor so we can read what&amp;rsquo;s inside a blk.dat file one after the other, to delimit the differents fileds and to stock the data extracted inside the structures we&amp;rsquo;ve made.
+We verify the data integrity with calculating the Merkle&amp;rsquo;s root. After that, we analyze the data from the structure inside the memory.
+Finally, the user have a display of the data inside our graphic interface throught a terminal.&lt;/p&gt;
+&lt;h3 id=&#34;parsor&#34;&gt;Parsor
+&lt;/h3&gt;&lt;p&gt;The parsor is our main and most important part of our application. At first, it reads all of the blk.dat file inside a buffer, we&amp;rsquo;ve chose this solution to move the curser more freely by a certains number of bytes. Then, it will analyze byte after byte the buffer and determine its size, transactions and finally it will stock everything inside the rightful structures to memory.&lt;/p&gt;
+&lt;p&gt;A blk file is made of blocks one after the other. Each block has multiple fields of size and of differents types. Each field has a fixed size, like the magic bytes who mark the beggining of a block and the type of the network use. This 4 bytes is one of thoses :  f9beb4d9 », « 0b110907 » and « fabfb5da ». To obtain the magic byte, the parsor read simply the 4 first bytes. But, not all the fields have a fixed size. It is not the case of &amp;ldquo;Input Count&amp;rdquo;, this field determine how much transactions is to come. This number could be one or thousand or even more. The size of the number of transactions that is variable, the parsor will not read the same size each time and have to determine it. How do we determine it ? The input count use a prefix system. If the value of the first byte is more than 0xfc, then we need to check the board below :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Préfix&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfc&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;No more bytes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfd&lt;/td&gt;
+&lt;td&gt;fd1234&lt;/td&gt;
+&lt;td&gt;read 2 more bytes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfe&lt;/td&gt;
+&lt;td&gt;fe12345678&lt;/td&gt;
+&lt;td&gt;read 4 more bytes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xff&lt;/td&gt;
+&lt;td&gt;ff 1234567890abcdef&lt;/td&gt;
+&lt;td&gt;read 8 more bytes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Our feature &amp;ldquo;lecture_frac&amp;rdquo; also do the export of our data to files. It allows to export the all blok.dat file to a json or txt file and become readable.&lt;/p&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-2-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-2&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/schema/parseur.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;434&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFwMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APXI5WW3kc8FWJ&amp;#43;Y57/WnNOyrEeDvOOB/wDXqNfltJT93k9j/hQ/Kwcnt0JH9RWN3Y0tqACRXRSNEQKgxtAH4VLvf&amp;#43;9TCQblsjnaOQRTq0j1JZEhxaSngY/u/wD1qVst5JAGARyTj&amp;#43;lKMm1kGSDnuM/zNJJ92HJPBB4Ht9DWS2/ruUKQftJO3jYOcn/D&amp;#43;tPpmF&amp;#43;0Fto&amp;#43;4Bu/yP607I9a0j1JZ//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/schema/parseur_hu6cf18c23f2973ef7a4fed61932fce2ac_167096_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/en/post/blockchain/images/schema/utilisation.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;434&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABcAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APYpCNwGMnBqCEIocmOTHU7x/jT9hSUEnduB9qIo9u4BXXPdmzQBKsUS8rGg&amp;#43;iimOflOyMMMdRSm3Q55fn/aNDybF2spJPdRxQAsmMjPoajhZAT1H1OafL1X8ahj/i&amp;#43;tAFnzF9aRpF2nntUVI33T9KAP/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/en/post/blockchain/images/schema/utilisation_huabf405148d6bf167609077e26832b677_70335_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-5672bf8d53895dd4345d19f999b70e64-2&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;h3 id=&#34;other-features&#34;&gt;Other features
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;the feature &amp;ldquo;conversions&amp;rdquo; contains a function of conversion between Satoshi and Bitcoin, and a function to convert the timestamp.&lt;/li&gt;
+&lt;li&gt;the feature &amp;ldquo;merkle_tree&amp;rdquo; contains the functions useful to rebuild the Merkle&amp;rsquo;s root and to display the all tree.&lt;/li&gt;
+&lt;li&gt;the feature &amp;ldquo;recherche&amp;rdquo; (search) offer multiples functions of searching : a function who look for the biggest amount of BTC transfert inside the file, one that can get the same research but for the block, another one that can calculate the volum of exchange of a day.&lt;/li&gt;
+&lt;li&gt;the module &amp;ldquo;tris&amp;rdquo; (organize) allows us to organize in O(n log n) every block depending of the timestamp it&amp;rsquo;s got. Let&amp;rsquo;s remind that when we download blocks from the blockchain, it happens that some blocks are not in the chronological order.&lt;/li&gt;
+&lt;li&gt;Finally, the feature &amp;ldquo;Calculs&amp;rdquo; contains the functions that allows us to extract the public keys, their hashes, and their adresses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multithreading&#34;&gt;Multithreading
+&lt;/h2&gt;&lt;p&gt;After our first use of our parsor, this one was really slow. Generating the Merkle&amp;rsquo;s tree was also really slow. We made some optimization with the help of threads inside lecture_frac and the merkle_tree.&lt;/p&gt;
+&lt;p&gt;The idea here was that one thread work on a certains amount of blocks. For that, we need to know the number of block inside the file and their size. A block begins with the magic bytes, followed by the block&amp;rsquo;s size. So we need to read the first 8 bytes and to move the cursor. We stock this inside a vector. Then, we need to check that the number of threads is above the number of block, else there is no need to use the threads. It&amp;rsquo;s a simple operation : just divide the number of block per number of threads. If we use the threads, then we give the number of block it needs to work on and where to start on the buffer.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

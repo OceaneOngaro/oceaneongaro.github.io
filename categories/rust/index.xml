@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Rust on PorteFolio Océane Ongaro</title>
+        <link>https://example.org/categories/rust/</link>
+        <description>Recent content in Rust on PorteFolio Océane Ongaro</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-FR</language>
+        <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/categories/rust/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Exploration de la blockchain Bitcoin avec Rust - L3</title>
+        <link>https://example.org/post/blockchain/</link>
+        <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.org/post/blockchain/</guid>
+        <description>&lt;img src="https://example.org/post/blockchain/intro.png" alt="Featured image of post Exploration de la blockchain Bitcoin avec Rust - L3" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitlab.com/AlyssaShep/blockchain-rust.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lien GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description
+&lt;/h2&gt;&lt;p&gt;Ce projet est une interface textuelle qui calcule et affiche des statistiques (nombres de transactions, etc) extraites de la blockchain Bitcoin avec Rust.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Ce projet offre la découverte de deux univers ayant récemment émergés : la blockchain Bitcoin, et Rust. La thématique était de manipuler les registres de cette cryptomonnaies en utilisant un langage que nous ne connaissions pas. Ce projet a été fait en collaboration avec des enseignants de Polytech Montpellier.&lt;/p&gt;
+&lt;h2 id=&#34;fonctionnalités&#34;&gt;Fonctionnalités
+&lt;/h2&gt;
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+	
+
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/jquery-3.7.0.min.js&#34;&gt;&lt;/script&gt;
+	
+	
+	
+		&lt;script src=&#34;https://example.org/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;https://example.org/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/1.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;373&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APN2gQHlR/3wKaURDkZGfQAVfOmaq6j/AECYjt&amp;#43;7JqP&amp;#43;xtTzn&amp;#43;z5/wDv21K5n7Wn/MvvKcqLn5ssfcU1dqn5Rj6VffR9UY/8eE4/7ZmmHRtSUbmsZwByT5ZouHtaf8y&amp;#43;8iGo3wGBeXH/AH9b/Gj&amp;#43;0b7/AJ/bj/v63&amp;#43;NV6KZXJHsWP7Rvv&amp;#43;f24/7&amp;#43;t/jQdRviCDeTkHt5p/xqvRQHJHsf/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/1_hu12b39e93e8dc3f4f47ee37985a6ef958_60016_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/2.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;373&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APNVjSRyAoz/ALgoKBH2j5SfQAUsS75OEBx74pZF2yj5AMnI5zQAyRVz8x3H3FNXaD8ox9BTpeo5/WmDqKAJNuCSCR9KAMsMknHrSnrQPvD60AI3z4J/nSBBkdaWlHWgD//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/2_hu35becbd037b44ed1a76d3510a21511ba_88212_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/3.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;366&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APOJHjDkeX0&amp;#43;g/pTPNXOQhBHcEf4U2X/AFhptADzIpOSrE/Uf4U&amp;#43;No89WU9O3&amp;#43;FQ05R84&amp;#43;tACmQk5Kr&amp;#43;VJ5n&amp;#43;yv5U0UHrQA8yc/dUfhQJSDnap/CmUlAH//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/3_hu4d4df4c838bdc9039d2a3e44ffd7c8b5_37001_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/4.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;376&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APM2Ee4/KP8AvgUg2qcqMfQAUP8AfNJQArbXOWyT70qBAePl/Cm0DqKAJSBmkwPSlPWkoAVgAxHoaFALClb75&amp;#43;tC/eFAH//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/4_hu9f591a198f136911ff3e83b657c55e12_30862_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/5.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;377&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABQAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APOTar12r0z90VFtRCdpwfYYo8x/&amp;#43;ehx9TTSS3Vs/WgAbaxy2T9aF2qflBH0pMe4pRgHrQAlFFFABRRRQB//2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/5_hu74b190068d98cfe6e3fa1b7609d4c7c7_44240_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-5672bf8d53895dd4345d19f999b70e64-0&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;p&gt;L’interface graphique est accessible depuis un terminal UNIX, Windows, ou même depuis un terminal
+lancé dans un environnement de développement intégré. L’interface graphique est responsive : elle s’adapte
+quand l’utilisateur redimensionne la fenêtre. Celle ci est divisée en cinq onglets.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;l’onglet Présentation :
+&lt;ul&gt;
+&lt;li&gt;présente brièvement le programme,&lt;/li&gt;
+&lt;li&gt;rappelle les commandes que l’on peut faire pour lancer le programme autrement,&lt;/li&gt;
+&lt;li&gt;aﬀiche les touches pour aﬀicher immédiatement l’aide ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;l’onglet Blocs aﬀiche les informations générales d’un bloc :
+&lt;ul&gt;
+&lt;li&gt;la taille du bloc, le nombre de transactions,&lt;/li&gt;
+&lt;li&gt;la version, la racine de Merkle, l’horaire, les bits, le nonce,&lt;/li&gt;
+&lt;li&gt;diverses statistiques (le volume d’échanges, la valeur moyenne et médiane, le premier et troisième
+quartile) ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;l’onglet Transactions aﬀiche un graphique du nombre de transactions par bloc,&lt;/li&gt;
+&lt;li&gt;l’onglet BTC aﬀiche un graphique de la plus grosse valeur par bloc,&lt;/li&gt;
+&lt;li&gt;l’onglet Aide explique comment naviguer entre les onglets, et comment accéder aux différentes
+fonctionnalités.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nous avons aussi mis en place des barres de progressions sur l’exportation des données, la mise en place
+des données pour le terminal ainsi que pour le parseur avec le nom spécifique du lieu d’écriture ou de lecture. Au moment de l’écriture nous proposons plusieurs choix à l’utilisateur : json ou txt ou le choix de quitter l’écriture.&lt;/p&gt;
+&lt;p&gt;Nous avons donc opté pour un nuage de points. Celui-ci permet de voir les résultats sur tous les blocs en même
+temps. Il y a aussi la présence du repère avec les blocs (abscisses) et le nombre de blocs (ordonnées) ce qui
+permet d’avoir plus de recul et d’impact sur la totalité des blocs.&lt;/p&gt;
+&lt;h2 id=&#34;démo&#34;&gt;Démo
+&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;demo.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;demo.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;utilisation-du-projet&#34;&gt;Utilisation du projet
+&lt;/h2&gt;&lt;h3 id=&#34;crates&#34;&gt;Crates
+&lt;/h3&gt;&lt;p&gt;Nous avons utilisé les crates suivantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;chrono : une bibliothèque pour la gestion du temps qui permet d’interpréter l’heure Unix contenue dans l’en-tête
+des blocs&lt;/li&gt;
+&lt;li&gt;crossterm : une bibliothèque pour manipuler un terminal&lt;/li&gt;
+&lt;li&gt;hex-string : une structure qui facilite la convertion de vecteurs d’entiers vers des chaînes hexadécimales,
+et qui est particulièrement utile du fait que la base 16 est largement utilisée dans Bitcoin pour les repré-
+sentations de clés privées, clés publiques, signatures ou hashs,&lt;/li&gt;
+&lt;li&gt;sha2 : une implémentation des fonctions de hachage de la famille SHA-2, qui permet d’utiliser la fonction
+SHA-256, nécessaire pour obtenir, entre autres, des identifiants de blocs ou de transactions,&lt;/li&gt;
+&lt;li&gt;tui-rs : une bibliothèque qui permet de construire des interfaces utilisateur et des tableaux de bord dans
+un terminal, en les divisant en widgets aﬀichables, et qui permet également de définir et contrôler.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installations&#34;&gt;Installations
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;cmake&lt;/li&gt;
+&lt;li&gt;pkg-config&lt;/li&gt;
+&lt;li&gt;libssl&lt;/li&gt;
+&lt;li&gt;libfreetype6-dev (Debian)&lt;/li&gt;
+&lt;li&gt;libexpat1-dev (Debian) / libexpat&lt;/li&gt;
+&lt;li&gt;libxcb-composite0-dev (Debian) / libxcb (Arch Linux)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;debian&#34;&gt;Debian
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install cmake
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install pkg&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config libasound2&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libssl&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev cmake libfreetype6&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libexpat1&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev libxcb&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;composite0&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;arch-linux&#34;&gt;Arch Linux
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;S cmake pkg&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;config libexpat libxcb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;lancements&#34;&gt;Lancements
+&lt;/h3&gt;&lt;p&gt;Les fichiers blk.dat doivent être placés dans un dossier ./ins, et les fichiers d’exportation sont placés dans
+un dossier ./outs dans le projet. Il est possible de choisir le dossier contenant les fichiers à lire, le dossier contenant les fichiers à exporter, ou les deux à la fois, en lançant le programme ainsi :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rust&#34; data-lang=&#34;rust&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release i .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_à_lire&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release o .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_où_exporter&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cargo run &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;release io .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_à_lire&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; .&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;dossier_où_exporter&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;implémentation&#34;&gt;Implémentation
+&lt;/h2&gt;&lt;h3 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges
+&lt;/h3&gt;&lt;p&gt;Les fonctionnalités qui étaient à implémenter rentrent dans trois catégories&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Désérialiser les données contenues dans les fichiers blk.dat :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lire les métadonnées de l’en-tête (version, hash du bloc précédent, etc.),&lt;/li&gt;
+&lt;li&gt;Lire les transactions,&lt;/li&gt;
+&lt;li&gt;Reconstruire l’arbre de Merkle ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyser les données :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compter le nombre de transactions contenues dans un bloc,&lt;/li&gt;
+&lt;li&gt;Extraire les adresses,&lt;/li&gt;
+&lt;li&gt;Rechercher la plus grande somme transférée, calculer la somme moyenne transférée en fonction d’une période, etc. ;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exporter les données via un affichage ou dans un fichier&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;approche&#34;&gt;Approche
+&lt;/h3&gt;&lt;p&gt;Pour réaliser ce projet, nous avons tout d’abord mis en place un parseur capable de lire des fichiers blk.dat,
+les uns après les autres, de délimiter les différents champs contenus dans ce fichier, puis de stocker les données
+en mémoire, dans des structures au format approprié. Nous vérifions ensuite l’intégrité des données par le calcul
+de la racine de Merkle. Par la suite, l’analyse des données est faite depuis ces structures stockées en mémoire.
+Finalement, l’utilisateur peut visionner les données depuis une interface graphique intégrée au terminal.&lt;/p&gt;
+&lt;h3 id=&#34;parseur&#34;&gt;Parseur
+&lt;/h3&gt;&lt;p&gt;Le parseur, notre module le plus important. Dans un premier temps, l’entièreté du fichier blk.dat
+est placée telle quelle dans un tampon en mémoire, ce qui offre plus de liberté pour déplacer un curseur en
+fonction d’un nombre variable d’octets. Puis, le module analyse octet par octet le tampon détermine sa taille,
+ses transactions, et enfin le stocke en mémoire dans une structure adaptée.&lt;/p&gt;
+&lt;p&gt;Un fichier blk.dat est constitué de blocs mis les uns à la suite des autres. Chaque bloc est constitué de
+plusieurs champs de tailles et de types différents. Certains champs ont une taille fixe, comme les bits magiques
+qui annoncent le début d’un bloc et le type du réseau qui a été employé. Ses quatre octets sont toujours les mêmes parmi « f9beb4d9 », « 0b110907 » et « fabfb5da ». Pour obtenir les bits magiques, le parseur lit
+simplement les quatre premiers octets.
+En revanche, certains champs n’ont pas de taille fixe. C’est le cas du champs « Input Count » qui indique le
+nombre de transactions à venir. Ce nombre peut être un, comme mille. La taille du nombre de transactions étant
+variable, le parseur ne devra donc pas lire systématiquement le même nombre d’octets afin de le déterminer.
+Pour qu’il soit possible de deviner sa taille, l’« Input Count » utilise un système de préfixe. Si la valeur du
+premier octet (le préfixe) est supérieure à 0xfc, il faut se reporter à ce tableau :&lt;/p&gt;
+&lt;p&gt;Préfixe Exemple Description&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Préfixe&lt;/th&gt;
+&lt;th&gt;Exemple&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfc&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Lire zéro octet de plus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfd&lt;/td&gt;
+&lt;td&gt;fd1234&lt;/td&gt;
+&lt;td&gt;Lire deux octets de plus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xfe&lt;/td&gt;
+&lt;td&gt;fe12345678&lt;/td&gt;
+&lt;td&gt;Lire quatre octets de plus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;≤ 0xff&lt;/td&gt;
+&lt;td&gt;ff 1234567890abcdef&lt;/td&gt;
+&lt;td&gt;Lire huit octets de plus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le module lecture_frac gère également l’exportation des données vers des fichiers. Il permet d’exporter
+l’entièreté d’un fichier blk.dat vers un fichier json, en rendant ses données facilement compréhensibles, ou encore
+d’exporter toutes les adresses présentes depuis un fichier blk.dat vers un fichier txt.&lt;/p&gt;
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-2-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-5672bf8d53895dd4345d19f999b70e64-2&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/schema/parseur.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;434&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFwMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APXI5WW3kc8FWJ&amp;#43;Y57/WnNOyrEeDvOOB/wDXqNfltJT93k9j/hQ/Kwcnt0JH9RWN3Y0tqACRXRSNEQKgxtAH4VLvf&amp;#43;9TCQblsjnaOQRTq0j1JZEhxaSngY/u/wD1qVst5JAGARyTj&amp;#43;lKMm1kGSDnuM/zNJJ92HJPBB4Ht9DWS2/ruUKQftJO3jYOcn/D&amp;#43;tPpmF&amp;#43;0Fto&amp;#43;4Bu/yP607I9a0j1JZ//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/schema/parseur_hu6cf18c23f2973ef7a4fed61932fce2ac_167096_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/blockchain/images/schema/utilisation.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;600&#34; height=&#34;434&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABcAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APYpCNwGMnBqCEIocmOTHU7x/jT9hSUEnduB9qIo9u4BXXPdmzQBKsUS8rGg&amp;#43;iimOflOyMMMdRSm3Q55fn/aNDybF2spJPdRxQAsmMjPoajhZAT1H1OafL1X8ahj/i&amp;#43;tAFnzF9aRpF2nntUVI33T9KAP/9k=&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/blockchain/images/schema/utilisation_huabf405148d6bf167609077e26832b677_70335_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-5672bf8d53895dd4345d19f999b70e64-2&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;h3 id=&#34;autres-modules&#34;&gt;Autres modules
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Le module conversions contient une fonction de conversion entre satoshis et bitcoins, ainsi qu’une
+fonction qui permet un aﬀichage agréable de l’horaire.&lt;/li&gt;
+&lt;li&gt;Le module merkle_tree contient les fonctions nécessaires au calcul de la racine de Merkle, et à
+l’aﬀichage de l’arbre reconstitué.&lt;/li&gt;
+&lt;li&gt;Le module recherches offre plusieurs fonctions de recherche : une fonction qui recherche la plus
+grande somme transférée dans tout le fichier, une qui fait la même recherche mais pour chaque bloc,
+ainsi qu’une fonction qui calcule la somme des bitcoins échangés au cours d’un même journée passée
+en paramètre.&lt;/li&gt;
+&lt;li&gt;Le module tris permet de trier en O(n log n) l’ensemble des blocs selon l’horaire qu’ils contiennent.
+Rappelons que lorsqu’on télécharge les blocs depuis un réseau Bitcoin, il arrive que certains blocs
+soient téléchargés dans le désordre.&lt;/li&gt;
+&lt;li&gt;Enfin, le module Calculs contient les fonctions qui permettent l’extraction des clefs publiques, de
+leurs hashs, et des adresses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;multithreading&#34;&gt;Multithreading
+&lt;/h2&gt;&lt;p&gt;Après la première mise en place du parseur, ce dernier était très lent. L’outil était également ralenti par le
+calcul de la racine de Merkle. Nous avons pu apporter des optimisations grâce à la mise en place de threads dans
+le module lecture_frac et dans le module merkle_tree.&lt;/p&gt;
+&lt;p&gt;L’idée ici est qu’un thread travaille sur un certain nombre de blocs. Il faut donc compter le nombre de blocs du
+fichier, ainsi que leur longueur. Comme un bloc commence par les bits magiques, suivis de sa taille, il suﬀit de
+lire les huit premiers octets, et de déplacer le curseur en l’incrémentant avec la taille extraite. Cette dernière est
+également stockée dans un tableau dynamique d’entier. Ensuite, il faut vérifier que le nombre de threads est bien
+supérieur au nombre de blocs, afin de voir s’il y a une utilité de threader la lecture du fichier. Pour cela, on fait
+la division entre le nombre de blocs dans un fichier, et le nombre de threads qu’on veut donner. Finalement, il
+devient possible de répartir le nombre de blocs par threads.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
