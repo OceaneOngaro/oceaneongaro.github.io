@@ -236,32 +236,6 @@ Nous avons décidé de faire une application dans le style Lofi donc nous avons 
 &gt;&lt;/p&gt;
 &lt;p&gt;Avant tout, il faut que l’utilisateur se crée un compte. Tous les champs doivent être remplis sinon l’utilisateur ne pourra pas créer de compte.Si l’utilisateur a déjà un compte, il pourra toujours se connecter. L’utilisateur devra obligatoirement, lors de la création, remplir tous les champs et le même mot de passe pour passer la vérification. Lorsque tous les champs sont remplis par l’utilisateur, il ne reste plus qu’à rentrer les données dans la base de données. Si l’utilisateur existe, un message s’affiche pour le signaler à l’utilisateur sinon le compte sera créé avec succès. Un contrôleur sur chaque champ a été mis en place pour pouvoir récupérer les différentes données ainsi qu’une clef pour le formulaire. ’utilisateur sera ensuite redirigé vers la configuration de l’ESP avec le bluetooth.&lt;/p&gt;
 &lt;h4 id=&#34;connexion&#34;&gt;Connexion
-&lt;/h4&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.org/post/iot/images/gallery/connexion/connexion.png&#34;
-	width=&#34;452&#34;
-	height=&#34;906&#34;
-	srcset=&#34;https://example.org/post/iot/images/gallery/connexion/connexion_hueab2644ac6e57f9cb9b041137e4a9922_62130_480x0_resize_box_3.png 480w, https://example.org/post/iot/images/gallery/connexion/connexion_hueab2644ac6e57f9cb9b041137e4a9922_62130_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;49&#34;
-		data-flex-basis=&#34;119px&#34;
-	
-&gt; &lt;img src=&#34;https://example.org/post/iot/images/gallery/connexion/message_erreur_co.png&#34;
-	width=&#34;447&#34;
-	height=&#34;251&#34;
-	srcset=&#34;https://example.org/post/iot/images/gallery/connexion/message_erreur_co_hu0797b74ccaa0991820427cb2709b0727_16835_480x0_resize_box_3.png 480w, https://example.org/post/iot/images/gallery/connexion/message_erreur_co_hu0797b74ccaa0991820427cb2709b0727_16835_1024x0_resize_box_3.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;178&#34;
-		data-flex-basis=&#34;427px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Si l’utilisateur a déjà un compte, il peut se connecter et avoir le choix de faire la configuration en laissant le bouton sur ”Faire la première connexion” qui le redirigera vers la connexion bluetooth sinon il ira sur l’écran d’accueil. Pour la connexion, l’utilisateur doit donner un email et son mot de passe qui seront vérifiés. Si l’utilisateur se trompe ou que son compte n’existe pas, il y aura alors un message d’informations.&lt;/p&gt;
-&lt;h4 id=&#34;bluetooth&#34;&gt;Bluetooth
 &lt;/h4&gt;
 
 
@@ -319,6 +293,216 @@ Nous avons décidé de faire une application dans le style Lofi donc nous avons 
 
 	&lt;script src=&#34;https://example.org/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
 	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://example.org/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-bd619028769b5b1b48b5eeb6c46d717d-4-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-bd619028769b5b1b48b5eeb6c46d717d-4&#34; class=&#34;justified-gallery&#34;&gt;
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/iot/images/gallery/connexion/connexion.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;299&#34; height=&#34;600&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAEAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APRb2xsNN0aW&amp;#43;liZkt4TIwjjUsQBnjPFMttN03VtDivVgIS4g8xRJGocAjI6d/pW7F/qE4P3R0pJv&amp;#43;PeTg/cP8qjkibe1la3UTcI7VXLBcKOp4ppfzLJn3Bsoc7TkZxXHJ8XPBoiVGvZzgAEfZJP8Kh1D4u&amp;#43;Fv7OmWwu3e4KERq9tIFJ9&amp;#43;BV2Mj/2Q==&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/iot/images/gallery/connexion/connexion_hueab2644ac6e57f9cb9b041137e4a9922_62130_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+		
+		
+				
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			
+			
+			
+
+			
+			
+
+
+			&lt;div&gt;
+				
+				
+					
+				
+				&lt;a href=&#34;https://example.org/post/iot/images/gallery/connexion/message_erreur_co.png&#34; 
+					class=&#34;galleryImg&#34;
+					
+					&gt;
+					&lt;img			
+						width=&#34;447&#34; height=&#34;251&#34;
+
+						
+							
+							style=&#34;filter: blur(25px);&#34;
+							
+								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APYU&amp;#43;4v0qvdzTxsoijDAjnP/AOqsNPiF4U2D/ibL0/54yf8AxNL/AMLC8Kf9BZf&amp;#43;/Mn/AMTVJ2GbdnNPKWE0YTHTHP8AQVLc/wDHrL/uH&amp;#43;Vc&amp;#43;fiJ4THB1dB/2xk/&amp;#43;JqlqvxL8Nw2Z&amp;#43;y3gu3dghRVddoPVuV7UPUDwwSyKMLIwA9DS&amp;#43;dLnPmv/wB9GmUUhCs7McsxJ9zTo&amp;#43;WOfQ/yplPi&amp;#43;8f90/yoA//Z&#34;
+							
+							class=&#34;lazy&#34;
+							data-src=&#34;https://example.org/post/iot/images/gallery/connexion/message_erreur_co_hu0797b74ccaa0991820427cb2709b0727_16835_600x600_fit_q90_lanczos_3.png&#34;
+						
+
+						
+					&gt;
+				&lt;/a&gt;
+			&lt;/div&gt;
+		
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!jQuery) {
+		alert(&#34;jquery is not loaded&#34;);
+	}
+
+	$( document ).ready(() =&gt; {
+		const gallery = $(&#34;#gallery-bd619028769b5b1b48b5eeb6c46d717d-4&#34;);
+		
+
+		
+		let swipeboxInstance = null;
+
+		
+		
+		gallery.on(&#39;jg.complete&#39;, () =&gt; {
+			
+				
+				
+				$(() =&gt; {
+					$(&#39;.lazy&#39;).Lazy({
+						visibleOnly: true,
+						afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+					});
+				});
+			
+
+			swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		gallery.justifiedGallery({
+			rowHeight : &#34;150&#34;,
+			margins : &#34;5&#34;,
+			border : 0,
+			randomize :  false ,
+			waitThumbnailsLoad : false,
+			lastRow : &#34;justify&#34;,
+			captions : false,
+			
+			
+		});
+
+		
+		
+	});
+&lt;/script&gt;
+
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Si l’utilisateur a déjà un compte, il peut se connecter et avoir le choix de faire la configuration en laissant le bouton sur ”Faire la première connexion” qui le redirigera vers la connexion bluetooth sinon il ira sur l’écran d’accueil. Pour la connexion, l’utilisateur doit donner un email et son mot de passe qui seront vérifiés. Si l’utilisateur se trompe ou que son compte n’existe pas, il y aura alors un message d’informations.&lt;/p&gt;
+&lt;h4 id=&#34;bluetooth&#34;&gt;Bluetooth
+&lt;/h4&gt;
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 &lt;style&gt;
